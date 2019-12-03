@@ -1,0 +1,7 @@
+{Error: File: /home/obadazx3000/HeSNN/coreCode/gridSearchforBeta.m Line: 1
+Column: 45
+Unexpected MATLAB expression.
+
+Error in testGrid (line 44)
+[ best_param ] = gridSearchforBeta( data, Param );
+} 

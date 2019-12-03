@@ -1,0 +1,103 @@
+%% scritp config
+dat ='aloi'; % dataset to test 
+fOutput ='aloi.csv';% summary of the output
+dist = 'euclidean';% distance metric to merge neurons
+pdf_f = 'Normal';% Don't worry about it, I was trying different Receptive fields 
+s = 0.1;% some chosn value
+c = 0.6;
+m = 0.9;
+%% Add path for some needed codes 
+addpath('matlab')
+addpath('data')
+addpath('coreCode')
+%% Read Data %dat% 
+% Theses data are libsvm format, thus we need libsvmread
+dataLocTr = sprintf('data/%s.tr',dat);
+dataLocTs = sprintf('data/%s.ts',dat);
+[labelsTr, dataTr]= libsvmread(dataLocTr);
+[labelsTs, dataTs]= libsvmread(dataLocTs);
+% Divide data into testing and training  
+if ~isempty(labelsTs)   
+    dataTs =full(dataTs);
+    dataTs = scaleCol(dataTs,-1,1);
+    dataTr =full(dataTr);
+    dataTr = scaleCol(dataTr,-1,1);
+else
+    data =full(dataTr);
+    l = labelsTr;
+    data= scaleCol(data,-1,1);
+    n =length(labelsTr);
+    tr = floor(0.7*n);
+    p = randperm(n);
+    dataTr = data(p(1:tr), :);
+    labelsTr = l(p(1:tr), :);
+    labelsTs = l(p(tr:end), :);
+    dataTs = data(p(tr:end), :);
+
+	fprintf('No testing data ..held data from training\n')	
+end
+dataTr = [dataTr labelsTr];
+dataTs = [dataTs labelsTs];
+fprintf('Data has been loaded \n')
+fprintf('Training data size is %d * %d \n', size(dataTr))
+fprintf('Testing data size is %d * %d \n', size(dataTs))
+nTraining = size(dataTr, 1);
+nTesting = size(dataTs, 1);
+%% In case we used fitted distribution
+% don't worry about this as well. I was trying other distributions for GRF
+pdca = [];
+for k=1:size(dataTr, 2)-1
+    d =dataTr(:, k);
+    pdca(k).pd = fitdist(d,'Kernel');
+end
+Param.pd_f = pdca;
+%% Output Results % fOutput %
+% Don't worry about this. Just for the output file
+s1= strsplit(fOutput,'.');% Remove extra part of file name from bash input
+s2 = strsplit(s1{1},'''');
+if length(s2)==1
+    s2{2} = s2{1};
+end
+%% mat files configuration 
+%% Param
+warning('off','all')
+fprintf ('---------------------- Start--------------------- \n')
+Param.m=m;
+Param.c=c;
+Param.s=s;
+Param.pdf_option = pdf_f;
+Param.dist = dist;
+Param.I_min=-1;
+Param.I_max=1;
+Param.nbfields=28;
+Param.Beta=1.5;
+Param.useVal = 0;% use validation in trainign ( not used now)
+Param.eval =1000; % evaluate training ever specefic number ( not used now)
+Param.max_response_time = 0.9; % don't worry about this
+Param.useExp = false; %don't worry about this
+Param.useThreshold = true; % don't worry about  this
+Param.useClassWideRespose = true; % don't worry about this
+%% Training
+% Here you need to divide the data according to different classes
+
+trainData1 = dataTr(1:5000, :); % first 5000 samples
+trainData2 = dataTr(5000:10000, :); % first 5000 samples
+[repos1, ~, ~] = train_eSNN4(trainData1, Param);
+[repos2, ~, ~] = train_eSNN4(trainData2, Param);
+
+% this how you merge different repos.  Let's say repos1 and repos 2 in
+% finalRpos
+finalRepos.w =[];
+finalRepos.theta =[];
+finalRepos.psp =[];
+finalRepos.nbmerges =[];
+finalRepos.label =[];
+
+finalRepos.w = [repos1.w ;repos2.w];
+finalRepos.theta=[repos1.theta ;repos2.theta];
+finalRepos.psp=[repos1.psp ;repos2.psp];
+finalRepos.nbmerges=[repos1.nbmerges ;repos2.nbmerges];
+finalRepos.label=[repos1.label ;repos2.label];
+%% Finally Testing
+testData = dataTs(1:1000, :); %test first 1000 samples
+[Acc , ~]=test_eSNN3( finalRepos,testData,Param );

@@ -1,0 +1,12 @@
+Chane log: 
+Has grid search for paramters s, c, and m.
+Has grid search for paramtes number of field and Beta.
+Added Laplace distribution AS Receptive field
+=====================================================
+Major changes:
+1- use linear repos for all data 
+2- fix bugs with rcf function and use  rcf2 instead. 
+3- add an option to choose which distance function to use. 
+4- add an option to selcect pdf.
+5- fix girsearch and use girdsearch2
+  

@@ -1,0 +1,1977 @@
+Opening log file:  /home/obadazx3000/java.log.54665
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+---------------------- Start--------------------- 
+Grid Search is done part of the data = 10000
+Starting parallel pool (parpool) using the 'local' profile ... connected to 12 workers.
+iteration 55 
+beta=1.10 --- nGRF=7.00 --- Acc=0.54 ---comp.=-14749999.00
+iteration 597 
+beta=1.65 --- nGRF=10.00 --- Acc=0.83 ---comp.=-13049999.00
+iteration 110 
+beta=1.15 --- nGRF=13.00 --- Acc=0.57 ---comp.=-11637499.00
+iteration 165 
+beta=1.20 --- nGRF=19.00 --- Acc=0.54 ---comp.=-10512499.00
+iteration 562 
+beta=1.60 --- nGRF=24.00 --- Acc=0.76 ---comp.=-9587499.00
+iteration 54 
+beta=1.10 --- nGRF=6.00 --- Acc=0.43 ---comp.=-14837499.00
+iteration 220 
+beta=1.25 --- nGRF=25.00 --- Acc=0.61 ---comp.=-9649999.00
+iteration 596 
+beta=1.65 --- nGRF=9.00 --- Acc=0.57 ---comp.=-13099999.00
+iteration 275 
+beta=1.30 --- nGRF=31.00 --- Acc=0.54 ---comp.=-8849999.00
+iteration 523 
+beta=1.55 --- nGRF=34.00 --- Acc=0.65 ---comp.=-8449999.00
+iteration 330 
+beta=1.35 --- nGRF=37.00 --- Acc=0.85 ---comp.=-8187499.00
+iteration 109 
+beta=1.15 --- nGRF=12.00 --- Acc=0.96 ---comp.=-11887499.00
+iteration 53 
+beta=1.10 --- nGRF=5.00 --- Acc=0.74 ---comp.=-17099999.00
+iteration 385 
+beta=1.40 --- nGRF=43.00 --- Acc=0.52 ---comp.=-7749999.00
+iteration 481 
+beta=1.50 --- nGRF=41.00 --- Acc=0.87 ---comp.=-8137499.00
+iteration 164 
+beta=1.20 --- nGRF=18.00 --- Acc=0.83 ---comp.=-10462499.00
+iteration 595 
+beta=1.65 --- nGRF=8.00 --- Acc=0.91 ---comp.=-14599999.00
+iteration 52 
+beta=1.10 --- nGRF=4.00 --- Acc=0.76 ---comp.=-17137499.00
+iteration 435 
+beta=1.45 --- nGRF=44.00 --- Acc=0.83 ---comp.=-7649999.00
+iteration 561 
+beta=1.60 --- nGRF=23.00 --- Acc=0.61 ---comp.=-9662499.00
+iteration 108 
+beta=1.15 --- nGRF=11.00 --- Acc=0.63 ---comp.=-13074999.00
+iteration 219 
+beta=1.25 --- nGRF=24.00 --- Acc=0.76 ---comp.=-9587499.00
+iteration 594 
+beta=1.65 --- nGRF=7.00 --- Acc=0.54 ---comp.=-14749999.00
+iteration 51 
+beta=1.10 --- nGRF=3.00 --- Acc=0.78 ---comp.=-20199999.00
+iteration 274 
+beta=1.30 --- nGRF=30.00 --- Acc=0.93 ---comp.=-8812499.00
+iteration 163 
+beta=1.20 --- nGRF=17.00 --- Acc=0.61 ---comp.=-11162499.00
+iteration 522 
+beta=1.55 --- nGRF=33.00 --- Acc=0.54 ---comp.=-8824999.00
+iteration 107 
+beta=1.15 --- nGRF=10.00 --- Acc=0.83 ---comp.=-13049999.00
+iteration 329 
+beta=1.35 --- nGRF=36.00 --- Acc=0.93 ---comp.=-8162499.00
+iteration 50 
+beta=1.10 --- nGRF=2.00 --- Acc=0.52 ---comp.=-20462499.00
+iteration 593 
+beta=1.65 --- nGRF=6.00 --- Acc=0.43 ---comp.=-14837499.00
+iteration 560 
+beta=1.60 --- nGRF=22.00 --- Acc=1.00 ---comp.=-9499999.00
+iteration 384 
+beta=1.40 --- nGRF=42.00 --- Acc=0.70 ---comp.=-7712499.00
+iteration 218 
+beta=1.25 --- nGRF=23.00 --- Acc=0.61 ---comp.=-9662499.00
+iteration 592 
+beta=1.65 --- nGRF=5.00 --- Acc=0.74 ---comp.=-17099999.00
+iteration 106 
+beta=1.15 --- nGRF=9.00 --- Acc=0.57 ---comp.=-13099999.00
+iteration 162 
+beta=1.20 --- nGRF=16.00 --- Acc=1.00 ---comp.=-10737499.00
+iteration 480 
+beta=1.50 --- nGRF=40.00 --- Acc=0.89 ---comp.=-8037499.00
+iteration 273 
+beta=1.30 --- nGRF=29.00 --- Acc=0.54 ---comp.=-8862499.00
+iteration 591 
+beta=1.65 --- nGRF=4.00 --- Acc=0.76 ---comp.=-17137499.00
+iteration 521 
+beta=1.55 --- nGRF=32.00 --- Acc=0.89 ---comp.=-8749999.00
+iteration 105 
+beta=1.15 --- nGRF=8.00 --- Acc=0.91 ---comp.=-14599999.00
+iteration 559 
+beta=1.60 --- nGRF=21.00 --- Acc=0.57 ---comp.=-10462499.00
+iteration 434 
+beta=1.45 --- nGRF=43.00 --- Acc=0.52 ---comp.=-7749999.00
+iteration 328 
+beta=1.35 --- nGRF=35.00 --- Acc=0.54 ---comp.=-8499999.00
+iteration 161 
+beta=1.20 --- nGRF=15.00 --- Acc=0.57 ---comp.=-11587499.00
+iteration 217 
+beta=1.25 --- nGRF=22.00 --- Acc=1.00 ---comp.=-9499999.00
+iteration 590 
+beta=1.65 --- nGRF=3.00 --- Acc=0.78 ---comp.=-20199999.00
+iteration 104 
+beta=1.15 --- nGRF=7.00 --- Acc=0.54 ---comp.=-14749999.00
+iteration 49 
+beta=1.05 --- nGRF=50.00 --- Acc=0.98 ---comp.=-6824999.00
+iteration 383 
+beta=1.40 --- nGRF=41.00 --- Acc=0.87 ---comp.=-8137499.00
+iteration 589 
+beta=1.65 --- nGRF=2.00 --- Acc=0.52 ---comp.=-20462499.00
+iteration 160 
+beta=1.20 --- nGRF=14.00 --- Acc=0.98 ---comp.=-11237499.00
+iteration 558 
+beta=1.60 --- nGRF=20.00 --- Acc=1.00 ---comp.=-9824999.00
+iteration 272 
+beta=1.30 --- nGRF=28.00 --- Acc=0.96 ---comp.=-8674999.00
+iteration 479 
+beta=1.50 --- nGRF=39.00 --- Acc=0.83 ---comp.=-8162499.00
+iteration 103 
+beta=1.15 --- nGRF=6.00 --- Acc=0.43 ---comp.=-14837499.00
+iteration 520 
+beta=1.55 --- nGRF=31.00 --- Acc=0.54 ---comp.=-8849999.00
+iteration 216 
+beta=1.25 --- nGRF=21.00 --- Acc=0.57 ---comp.=-10462499.00
+iteration 327 
+beta=1.35 --- nGRF=34.00 --- Acc=0.65 ---comp.=-8449999.00
+iteration 102 
+beta=1.15 --- nGRF=5.00 --- Acc=0.74 ---comp.=-17099999.00
+iteration 159 
+beta=1.20 --- nGRF=13.00 --- Acc=0.57 ---comp.=-11637499.00
+iteration 557 
+beta=1.60 --- nGRF=19.00 --- Acc=0.54 ---comp.=-10512499.00
+iteration 433 
+beta=1.45 --- nGRF=42.00 --- Acc=0.70 ---comp.=-7712499.00
+iteration 101 
+beta=1.15 --- nGRF=4.00 --- Acc=0.76 ---comp.=-17137499.00
+iteration 271 
+beta=1.30 --- nGRF=27.00 --- Acc=0.57 ---comp.=-9599999.00
+iteration 382 
+beta=1.40 --- nGRF=40.00 --- Acc=0.89 ---comp.=-8037499.00
+iteration 215 
+beta=1.25 --- nGRF=20.00 --- Acc=1.00 ---comp.=-9824999.00
+iteration 158 
+beta=1.20 --- nGRF=12.00 --- Acc=0.96 ---comp.=-11887499.00
+iteration 519 
+beta=1.55 --- nGRF=30.00 --- Acc=0.93 ---comp.=-8812499.00
+iteration 48 
+beta=1.05 --- nGRF=49.00 --- Acc=0.52 ---comp.=-7549999.00
+iteration 100 
+beta=1.15 --- nGRF=3.00 --- Acc=0.78 ---comp.=-20199999.00
+iteration 588 
+beta=1.60 --- nGRF=50.00 --- Acc=0.98 ---comp.=-6824999.00
+iteration 478 
+beta=1.50 --- nGRF=38.00 --- Acc=0.93 ---comp.=-8149999.00
+iteration 556 
+beta=1.60 --- nGRF=18.00 --- Acc=0.83 ---comp.=-10462499.00
+iteration 326 
+beta=1.35 --- nGRF=33.00 --- Acc=0.54 ---comp.=-8824999.00
+iteration 99 
+beta=1.15 --- nGRF=2.00 --- Acc=0.52 ---comp.=-20462499.00
+iteration 157 
+beta=1.20 --- nGRF=11.00 --- Acc=0.63 ---comp.=-13074999.00
+iteration 214 
+beta=1.25 --- nGRF=19.00 --- Acc=0.54 ---comp.=-10512499.00
+iteration 270 
+beta=1.30 --- nGRF=26.00 --- Acc=0.91 ---comp.=-9549999.00
+iteration 555 
+beta=1.60 --- nGRF=17.00 --- Acc=0.61 ---comp.=-11162499.00
+iteration 518 
+beta=1.55 --- nGRF=29.00 --- Acc=0.54 ---comp.=-8862499.00
+iteration 156 
+beta=1.20 --- nGRF=10.00 --- Acc=0.83 ---comp.=-13049999.00
+iteration 381 
+beta=1.40 --- nGRF=39.00 --- Acc=0.83 ---comp.=-8162499.00
+iteration 432 
+beta=1.45 --- nGRF=41.00 --- Acc=0.87 ---comp.=-8137499.00
+iteration 325 
+beta=1.35 --- nGRF=32.00 --- Acc=0.89 ---comp.=-8749999.00
+iteration 213 
+beta=1.25 --- nGRF=18.00 --- Acc=0.83 ---comp.=-10462499.00
+iteration 47 
+beta=1.05 --- nGRF=48.00 --- Acc=0.54 ---comp.=-7624999.00
+iteration 155 
+beta=1.20 --- nGRF=9.00 --- Acc=0.57 ---comp.=-13099999.00
+iteration 477 
+beta=1.50 --- nGRF=37.00 --- Acc=0.85 ---comp.=-8187499.00
+iteration 587 
+beta=1.60 --- nGRF=49.00 --- Acc=0.52 ---comp.=-7549999.00
+iteration 269 
+beta=1.30 --- nGRF=25.00 --- Acc=0.61 ---comp.=-9649999.00
+iteration 554 
+beta=1.60 --- nGRF=16.00 --- Acc=1.00 ---comp.=-10737499.00
+iteration 154 
+beta=1.20 --- nGRF=8.00 --- Acc=0.91 ---comp.=-14599999.00
+iteration 98 
+beta=1.10 --- nGRF=50.00 --- Acc=0.98 ---comp.=-6824999.00
+iteration 517 
+beta=1.55 --- nGRF=28.00 --- Acc=0.96 ---comp.=-8674999.00
+iteration 212 
+beta=1.25 --- nGRF=17.00 --- Acc=0.61 ---comp.=-11162499.00
+iteration 380 
+beta=1.40 --- nGRF=38.00 --- Acc=0.93 ---comp.=-8149999.00
+iteration 553 
+beta=1.60 --- nGRF=15.00 --- Acc=0.57 ---comp.=-11587499.00
+iteration 324 
+beta=1.35 --- nGRF=31.00 --- Acc=0.54 ---comp.=-8849999.00
+iteration 153 
+beta=1.20 --- nGRF=7.00 --- Acc=0.54 ---comp.=-14749999.00
+iteration 268 
+beta=1.30 --- nGRF=24.00 --- Acc=0.76 ---comp.=-9587499.00
+iteration 211 
+beta=1.25 --- nGRF=16.00 --- Acc=1.00 ---comp.=-10737499.00
+iteration 476 
+beta=1.50 --- nGRF=36.00 --- Acc=0.93 ---comp.=-8162499.00
+iteration 46 
+beta=1.05 --- nGRF=47.00 --- Acc=0.59 ---comp.=-7662499.00
+iteration 152 
+beta=1.20 --- nGRF=6.00 --- Acc=0.43 ---comp.=-14837499.00
+iteration 431 
+beta=1.45 --- nGRF=40.00 --- Acc=0.89 ---comp.=-8037499.00
+iteration 552 
+beta=1.60 --- nGRF=14.00 --- Acc=0.98 ---comp.=-11237499.00
+iteration 516 
+beta=1.55 --- nGRF=27.00 --- Acc=0.57 ---comp.=-9599999.00
+iteration 586 
+beta=1.60 --- nGRF=48.00 --- Acc=0.54 ---comp.=-7624999.00
+iteration 151 
+beta=1.20 --- nGRF=5.00 --- Acc=0.74 ---comp.=-17099999.00
+iteration 323 
+beta=1.35 --- nGRF=30.00 --- Acc=0.93 ---comp.=-8812499.00
+iteration 267 
+beta=1.30 --- nGRF=23.00 --- Acc=0.61 ---comp.=-9662499.00
+iteration 379 
+beta=1.40 --- nGRF=37.00 --- Acc=0.85 ---comp.=-8187499.00
+iteration 97 
+beta=1.10 --- nGRF=49.00 --- Acc=0.52 ---comp.=-7549999.00
+iteration 210 
+beta=1.25 --- nGRF=15.00 --- Acc=0.57 ---comp.=-11587499.00
+iteration 551 
+beta=1.60 --- nGRF=13.00 --- Acc=0.57 ---comp.=-11637499.00
+iteration 150 
+beta=1.20 --- nGRF=4.00 --- Acc=0.76 ---comp.=-17137499.00
+iteration 515 
+beta=1.55 --- nGRF=26.00 --- Acc=0.91 ---comp.=-9549999.00
+iteration 149 
+beta=1.20 --- nGRF=3.00 --- Acc=0.78 ---comp.=-20199999.00
+iteration 550 
+beta=1.60 --- nGRF=12.00 --- Acc=0.96 ---comp.=-11887499.00
+iteration 475 
+beta=1.50 --- nGRF=35.00 --- Acc=0.54 ---comp.=-8499999.00
+iteration 209 
+beta=1.25 --- nGRF=14.00 --- Acc=0.98 ---comp.=-11237499.00
+iteration 266 
+beta=1.30 --- nGRF=22.00 --- Acc=1.00 ---comp.=-9499999.00
+iteration 45 
+beta=1.05 --- nGRF=46.00 --- Acc=0.80 ---comp.=-7574999.00
+iteration 322 
+beta=1.35 --- nGRF=29.00 --- Acc=0.54 ---comp.=-8862499.00
+iteration 148 
+beta=1.20 --- nGRF=2.00 --- Acc=0.52 ---comp.=-20462499.00
+iteration 585 
+beta=1.60 --- nGRF=47.00 --- Acc=0.59 ---comp.=-7662499.00
+iteration 430 
+beta=1.45 --- nGRF=39.00 --- Acc=0.83 ---comp.=-8162499.00
+iteration 378 
+beta=1.40 --- nGRF=36.00 --- Acc=0.93 ---comp.=-8162499.00
+iteration 549 
+beta=1.60 --- nGRF=11.00 --- Acc=0.63 ---comp.=-13074999.00
+iteration 514 
+beta=1.55 --- nGRF=25.00 --- Acc=0.61 ---comp.=-9649999.00
+iteration 208 
+beta=1.25 --- nGRF=13.00 --- Acc=0.57 ---comp.=-11637499.00
+iteration 96 
+beta=1.10 --- nGRF=48.00 --- Acc=0.54 ---comp.=-7624999.00
+iteration 265 
+beta=1.30 --- nGRF=21.00 --- Acc=0.57 ---comp.=-10462499.00
+iteration 548 
+beta=1.60 --- nGRF=10.00 --- Acc=0.83 ---comp.=-13049999.00
+iteration 321 
+beta=1.35 --- nGRF=28.00 --- Acc=0.96 ---comp.=-8674999.00
+iteration 474 
+beta=1.50 --- nGRF=34.00 --- Acc=0.65 ---comp.=-8449999.00
+iteration 207 
+beta=1.25 --- nGRF=12.00 --- Acc=0.96 ---comp.=-11887499.00
+iteration 44 
+beta=1.05 --- nGRF=45.00 --- Acc=0.59 ---comp.=-7687499.00
+iteration 513 
+beta=1.55 --- nGRF=24.00 --- Acc=0.76 ---comp.=-9587499.00
+iteration 547 
+beta=1.60 --- nGRF=9.00 --- Acc=0.57 ---comp.=-13099999.00
+iteration 377 
+beta=1.40 --- nGRF=35.00 --- Acc=0.54 ---comp.=-8499999.00
+iteration 584 
+beta=1.60 --- nGRF=46.00 --- Acc=0.80 ---comp.=-7574999.00
+iteration 264 
+beta=1.30 --- nGRF=20.00 --- Acc=1.00 ---comp.=-9824999.00
+iteration 147 
+beta=1.15 --- nGRF=50.00 --- Acc=0.98 ---comp.=-6824999.00
+iteration 429 
+beta=1.45 --- nGRF=38.00 --- Acc=0.93 ---comp.=-8149999.00
+iteration 206 
+beta=1.25 --- nGRF=11.00 --- Acc=0.63 ---comp.=-13074999.00
+iteration 546 
+beta=1.60 --- nGRF=8.00 --- Acc=0.91 ---comp.=-14599999.00
+iteration 320 
+beta=1.35 --- nGRF=27.00 --- Acc=0.57 ---comp.=-9599999.00
+iteration 95 
+beta=1.10 --- nGRF=47.00 --- Acc=0.59 ---comp.=-7662499.00
+iteration 512 
+beta=1.55 --- nGRF=23.00 --- Acc=0.61 ---comp.=-9662499.00
+iteration 205 
+beta=1.25 --- nGRF=10.00 --- Acc=0.83 ---comp.=-13049999.00
+iteration 473 
+beta=1.50 --- nGRF=33.00 --- Acc=0.54 ---comp.=-8824999.00
+iteration 545 
+beta=1.60 --- nGRF=7.00 --- Acc=0.54 ---comp.=-14749999.00
+iteration 263 
+beta=1.30 --- nGRF=19.00 --- Acc=0.54 ---comp.=-10512499.00
+iteration 376 
+beta=1.40 --- nGRF=34.00 --- Acc=0.65 ---comp.=-8449999.00
+iteration 43 
+beta=1.05 --- nGRF=44.00 --- Acc=0.83 ---comp.=-7649999.00
+iteration 544 
+beta=1.60 --- nGRF=6.00 --- Acc=0.43 ---comp.=-14837499.00
+iteration 204 
+beta=1.25 --- nGRF=9.00 --- Acc=0.57 ---comp.=-13099999.00
+iteration 583 
+beta=1.60 --- nGRF=45.00 --- Acc=0.59 ---comp.=-7687499.00
+iteration 319 
+beta=1.35 --- nGRF=26.00 --- Acc=0.91 ---comp.=-9549999.00
+iteration 146 
+beta=1.15 --- nGRF=49.00 --- Acc=0.52 ---comp.=-7549999.00
+iteration 511 
+beta=1.55 --- nGRF=22.00 --- Acc=1.00 ---comp.=-9499999.00
+iteration 262 
+beta=1.30 --- nGRF=18.00 --- Acc=0.83 ---comp.=-10462499.00
+iteration 543 
+beta=1.60 --- nGRF=5.00 --- Acc=0.74 ---comp.=-17099999.00
+iteration 428 
+beta=1.45 --- nGRF=37.00 --- Acc=0.85 ---comp.=-8187499.00
+iteration 203 
+beta=1.25 --- nGRF=8.00 --- Acc=0.91 ---comp.=-14599999.00
+iteration 472 
+beta=1.50 --- nGRF=32.00 --- Acc=0.89 ---comp.=-8749999.00
+iteration 94 
+beta=1.10 --- nGRF=46.00 --- Acc=0.80 ---comp.=-7574999.00
+iteration 542 
+beta=1.60 --- nGRF=4.00 --- Acc=0.76 ---comp.=-17137499.00
+iteration 375 
+beta=1.40 --- nGRF=33.00 --- Acc=0.54 ---comp.=-8824999.00
+iteration 318 
+beta=1.35 --- nGRF=25.00 --- Acc=0.61 ---comp.=-9649999.00
+iteration 202 
+beta=1.25 --- nGRF=7.00 --- Acc=0.54 ---comp.=-14749999.00
+iteration 261 
+beta=1.30 --- nGRF=17.00 --- Acc=0.61 ---comp.=-11162499.00
+iteration 510 
+beta=1.55 --- nGRF=21.00 --- Acc=0.57 ---comp.=-10462499.00
+iteration 541 
+beta=1.60 --- nGRF=3.00 --- Acc=0.78 ---comp.=-20199999.00
+iteration 42 
+beta=1.05 --- nGRF=43.00 --- Acc=0.52 ---comp.=-7749999.00
+iteration 582 
+beta=1.60 --- nGRF=44.00 --- Acc=0.83 ---comp.=-7649999.00
+iteration 201 
+beta=1.25 --- nGRF=6.00 --- Acc=0.43 ---comp.=-14837499.00
+iteration 540 
+beta=1.60 --- nGRF=2.00 --- Acc=0.52 ---comp.=-20462499.00
+iteration 145 
+beta=1.15 --- nGRF=48.00 --- Acc=0.54 ---comp.=-7624999.00
+iteration 260 
+beta=1.30 --- nGRF=16.00 --- Acc=1.00 ---comp.=-10737499.00
+iteration 317 
+beta=1.35 --- nGRF=24.00 --- Acc=0.76 ---comp.=-9587499.00
+iteration 471 
+beta=1.50 --- nGRF=31.00 --- Acc=0.54 ---comp.=-8849999.00
+iteration 200 
+beta=1.25 --- nGRF=5.00 --- Acc=0.74 ---comp.=-17099999.00
+iteration 509 
+beta=1.55 --- nGRF=20.00 --- Acc=1.00 ---comp.=-9824999.00
+iteration 427 
+beta=1.45 --- nGRF=36.00 --- Acc=0.93 ---comp.=-8162499.00
+iteration 374 
+beta=1.40 --- nGRF=32.00 --- Acc=0.89 ---comp.=-8749999.00
+iteration 93 
+beta=1.10 --- nGRF=45.00 --- Acc=0.59 ---comp.=-7687499.00
+iteration 199 
+beta=1.25 --- nGRF=4.00 --- Acc=0.76 ---comp.=-17137499.00
+iteration 259 
+beta=1.30 --- nGRF=15.00 --- Acc=0.57 ---comp.=-11587499.00
+iteration 41 
+beta=1.05 --- nGRF=42.00 --- Acc=0.70 ---comp.=-7712499.00
+iteration 316 
+beta=1.35 --- nGRF=23.00 --- Acc=0.61 ---comp.=-9662499.00
+iteration 508 
+beta=1.55 --- nGRF=19.00 --- Acc=0.54 ---comp.=-10512499.00
+iteration 198 
+beta=1.25 --- nGRF=3.00 --- Acc=0.78 ---comp.=-20199999.00
+iteration 581 
+beta=1.60 --- nGRF=43.00 --- Acc=0.52 ---comp.=-7749999.00
+iteration 373 
+beta=1.40 --- nGRF=31.00 --- Acc=0.54 ---comp.=-8849999.00
+iteration 470 
+beta=1.50 --- nGRF=30.00 --- Acc=0.93 ---comp.=-8812499.00
+iteration 197 
+beta=1.25 --- nGRF=2.00 --- Acc=0.52 ---comp.=-20462499.00
+iteration 539 
+beta=1.55 --- nGRF=50.00 --- Acc=0.98 ---comp.=-6824999.00
+iteration 258 
+beta=1.30 --- nGRF=14.00 --- Acc=0.98 ---comp.=-11237499.00
+iteration 144 
+beta=1.15 --- nGRF=47.00 --- Acc=0.59 ---comp.=-7662499.00
+iteration 426 
+beta=1.45 --- nGRF=35.00 --- Acc=0.54 ---comp.=-8499999.00
+iteration 507 
+beta=1.55 --- nGRF=18.00 --- Acc=0.83 ---comp.=-10462499.00
+iteration 315 
+beta=1.35 --- nGRF=22.00 --- Acc=1.00 ---comp.=-9499999.00
+iteration 92 
+beta=1.10 --- nGRF=44.00 --- Acc=0.83 ---comp.=-7649999.00
+iteration 257 
+beta=1.30 --- nGRF=13.00 --- Acc=0.57 ---comp.=-11637499.00
+iteration 40 
+beta=1.05 --- nGRF=41.00 --- Acc=0.87 ---comp.=-8137499.00
+iteration 372 
+beta=1.40 --- nGRF=30.00 --- Acc=0.93 ---comp.=-8812499.00
+iteration 580 
+beta=1.60 --- nGRF=42.00 --- Acc=0.70 ---comp.=-7712499.00
+iteration 469 
+beta=1.50 --- nGRF=29.00 --- Acc=0.54 ---comp.=-8862499.00
+iteration 506 
+beta=1.55 --- nGRF=17.00 --- Acc=0.61 ---comp.=-11162499.00
+iteration 314 
+beta=1.35 --- nGRF=21.00 --- Acc=0.57 ---comp.=-10462499.00
+iteration 256 
+beta=1.30 --- nGRF=12.00 --- Acc=0.96 ---comp.=-11887499.00
+iteration 143 
+beta=1.15 --- nGRF=46.00 --- Acc=0.80 ---comp.=-7574999.00
+iteration 538 
+beta=1.55 --- nGRF=49.00 --- Acc=0.52 ---comp.=-7549999.00
+iteration 196 
+beta=1.20 --- nGRF=50.00 --- Acc=0.98 ---comp.=-6824999.00
+iteration 425 
+beta=1.45 --- nGRF=34.00 --- Acc=0.65 ---comp.=-8449999.00
+iteration 505 
+beta=1.55 --- nGRF=16.00 --- Acc=1.00 ---comp.=-10737499.00
+iteration 91 
+beta=1.10 --- nGRF=43.00 --- Acc=0.52 ---comp.=-7749999.00
+iteration 255 
+beta=1.30 --- nGRF=11.00 --- Acc=0.63 ---comp.=-13074999.00
+iteration 371 
+beta=1.40 --- nGRF=29.00 --- Acc=0.54 ---comp.=-8862499.00
+iteration 39 
+beta=1.05 --- nGRF=40.00 --- Acc=0.89 ---comp.=-8037499.00
+iteration 313 
+beta=1.35 --- nGRF=20.00 --- Acc=1.00 ---comp.=-9824999.00
+iteration 468 
+beta=1.50 --- nGRF=28.00 --- Acc=0.96 ---comp.=-8674999.00
+iteration 579 
+beta=1.60 --- nGRF=41.00 --- Acc=0.87 ---comp.=-8137499.00
+iteration 254 
+beta=1.30 --- nGRF=10.00 --- Acc=0.83 ---comp.=-13049999.00
+iteration 504 
+beta=1.55 --- nGRF=15.00 --- Acc=0.57 ---comp.=-11587499.00
+iteration 312 
+beta=1.35 --- nGRF=19.00 --- Acc=0.54 ---comp.=-10512499.00
+iteration 142 
+beta=1.15 --- nGRF=45.00 --- Acc=0.59 ---comp.=-7687499.00
+iteration 537 
+beta=1.55 --- nGRF=48.00 --- Acc=0.54 ---comp.=-7624999.00
+iteration 253 
+beta=1.30 --- nGRF=9.00 --- Acc=0.57 ---comp.=-13099999.00
+iteration 370 
+beta=1.40 --- nGRF=28.00 --- Acc=0.96 ---comp.=-8674999.00
+iteration 195 
+beta=1.20 --- nGRF=49.00 --- Acc=0.52 ---comp.=-7549999.00
+iteration 503 
+beta=1.55 --- nGRF=14.00 --- Acc=0.98 ---comp.=-11237499.00
+iteration 424 
+beta=1.45 --- nGRF=33.00 --- Acc=0.54 ---comp.=-8824999.00
+iteration 90 
+beta=1.10 --- nGRF=42.00 --- Acc=0.70 ---comp.=-7712499.00
+iteration 38 
+beta=1.05 --- nGRF=39.00 --- Acc=0.83 ---comp.=-8162499.00
+iteration 467 
+beta=1.50 --- nGRF=27.00 --- Acc=0.57 ---comp.=-9599999.00
+iteration 252 
+beta=1.30 --- nGRF=8.00 --- Acc=0.91 ---comp.=-14599999.00
+iteration 311 
+beta=1.35 --- nGRF=18.00 --- Acc=0.83 ---comp.=-10462499.00
+iteration 578 
+beta=1.60 --- nGRF=40.00 --- Acc=0.89 ---comp.=-8037499.00
+iteration 502 
+beta=1.55 --- nGRF=13.00 --- Acc=0.57 ---comp.=-11637499.00
+iteration 369 
+beta=1.40 --- nGRF=27.00 --- Acc=0.57 ---comp.=-9599999.00
+iteration 251 
+beta=1.30 --- nGRF=7.00 --- Acc=0.54 ---comp.=-14749999.00
+iteration 141 
+beta=1.15 --- nGRF=44.00 --- Acc=0.83 ---comp.=-7649999.00
+iteration 310 
+beta=1.35 --- nGRF=17.00 --- Acc=0.61 ---comp.=-11162499.00
+iteration 466 
+beta=1.50 --- nGRF=26.00 --- Acc=0.91 ---comp.=-9549999.00
+iteration 501 
+beta=1.55 --- nGRF=12.00 --- Acc=0.96 ---comp.=-11887499.00
+iteration 536 
+beta=1.55 --- nGRF=47.00 --- Acc=0.59 ---comp.=-7662499.00
+iteration 250 
+beta=1.30 --- nGRF=6.00 --- Acc=0.43 ---comp.=-14837499.00
+iteration 37 
+beta=1.05 --- nGRF=38.00 --- Acc=0.93 ---comp.=-8149999.00
+iteration 89 
+beta=1.10 --- nGRF=41.00 --- Acc=0.87 ---comp.=-8137499.00
+iteration 423 
+beta=1.45 --- nGRF=32.00 --- Acc=0.89 ---comp.=-8749999.00
+iteration 194 
+beta=1.20 --- nGRF=48.00 --- Acc=0.54 ---comp.=-7624999.00
+iteration 577 
+beta=1.60 --- nGRF=39.00 --- Acc=0.83 ---comp.=-8162499.00
+iteration 249 
+beta=1.30 --- nGRF=5.00 --- Acc=0.74 ---comp.=-17099999.00
+iteration 368 
+beta=1.40 --- nGRF=26.00 --- Acc=0.91 ---comp.=-9549999.00
+iteration 309 
+beta=1.35 --- nGRF=16.00 --- Acc=1.00 ---comp.=-10737499.00
+iteration 500 
+beta=1.55 --- nGRF=11.00 --- Acc=0.63 ---comp.=-13074999.00
+iteration 248 
+beta=1.30 --- nGRF=4.00 --- Acc=0.76 ---comp.=-17137499.00
+iteration 465 
+beta=1.50 --- nGRF=25.00 --- Acc=0.61 ---comp.=-9649999.00
+iteration 499 
+beta=1.55 --- nGRF=10.00 --- Acc=0.83 ---comp.=-13049999.00
+iteration 140 
+beta=1.15 --- nGRF=43.00 --- Acc=0.52 ---comp.=-7749999.00
+iteration 308 
+beta=1.35 --- nGRF=15.00 --- Acc=0.57 ---comp.=-11587499.00
+iteration 36 
+beta=1.05 --- nGRF=37.00 --- Acc=0.85 ---comp.=-8187499.00
+iteration 247 
+beta=1.30 --- nGRF=3.00 --- Acc=0.78 ---comp.=-20199999.00
+iteration 367 
+beta=1.40 --- nGRF=25.00 --- Acc=0.61 ---comp.=-9649999.00
+iteration 88 
+beta=1.10 --- nGRF=40.00 --- Acc=0.89 ---comp.=-8037499.00
+iteration 535 
+beta=1.55 --- nGRF=46.00 --- Acc=0.80 ---comp.=-7574999.00
+iteration 422 
+beta=1.45 --- nGRF=31.00 --- Acc=0.54 ---comp.=-8849999.00
+iteration 576 
+beta=1.60 --- nGRF=38.00 --- Acc=0.93 ---comp.=-8149999.00
+iteration 246 
+beta=1.30 --- nGRF=2.00 --- Acc=0.52 ---comp.=-20462499.00
+iteration 498 
+beta=1.55 --- nGRF=9.00 --- Acc=0.57 ---comp.=-13099999.00
+iteration 193 
+beta=1.20 --- nGRF=47.00 --- Acc=0.59 ---comp.=-7662499.00
+iteration 307 
+beta=1.35 --- nGRF=14.00 --- Acc=0.98 ---comp.=-11237499.00
+iteration 464 
+beta=1.50 --- nGRF=24.00 --- Acc=0.76 ---comp.=-9587499.00
+iteration 497 
+beta=1.55 --- nGRF=8.00 --- Acc=0.91 ---comp.=-14599999.00
+iteration 366 
+beta=1.40 --- nGRF=24.00 --- Acc=0.76 ---comp.=-9587499.00
+iteration 35 
+beta=1.05 --- nGRF=36.00 --- Acc=0.93 ---comp.=-8162499.00
+iteration 306 
+beta=1.35 --- nGRF=13.00 --- Acc=0.57 ---comp.=-11637499.00
+iteration 139 
+beta=1.15 --- nGRF=42.00 --- Acc=0.70 ---comp.=-7712499.00
+iteration 496 
+beta=1.55 --- nGRF=7.00 --- Acc=0.54 ---comp.=-14749999.00
+iteration 87 
+beta=1.10 --- nGRF=39.00 --- Acc=0.83 ---comp.=-8162499.00
+iteration 575 
+beta=1.60 --- nGRF=37.00 --- Acc=0.85 ---comp.=-8187499.00
+iteration 534 
+beta=1.55 --- nGRF=45.00 --- Acc=0.59 ---comp.=-7687499.00
+iteration 421 
+beta=1.45 --- nGRF=30.00 --- Acc=0.93 ---comp.=-8812499.00
+iteration 463 
+beta=1.50 --- nGRF=23.00 --- Acc=0.61 ---comp.=-9662499.00
+iteration 305 
+beta=1.35 --- nGRF=12.00 --- Acc=0.96 ---comp.=-11887499.00
+iteration 495 
+beta=1.55 --- nGRF=6.00 --- Acc=0.43 ---comp.=-14837499.00
+iteration 192 
+beta=1.20 --- nGRF=46.00 --- Acc=0.80 ---comp.=-7574999.00
+iteration 365 
+beta=1.40 --- nGRF=23.00 --- Acc=0.61 ---comp.=-9662499.00
+iteration 245 
+beta=1.25 --- nGRF=50.00 --- Acc=0.98 ---comp.=-6824999.00
+iteration 494 
+beta=1.55 --- nGRF=5.00 --- Acc=0.74 ---comp.=-17099999.00
+iteration 34 
+beta=1.05 --- nGRF=35.00 --- Acc=0.54 ---comp.=-8499999.00
+iteration 304 
+beta=1.35 --- nGRF=11.00 --- Acc=0.63 ---comp.=-13074999.00
+iteration 138 
+beta=1.15 --- nGRF=41.00 --- Acc=0.87 ---comp.=-8137499.00
+iteration 462 
+beta=1.50 --- nGRF=22.00 --- Acc=1.00 ---comp.=-9499999.00
+iteration 574 
+beta=1.60 --- nGRF=36.00 --- Acc=0.93 ---comp.=-8162499.00
+iteration 86 
+beta=1.10 --- nGRF=38.00 --- Acc=0.93 ---comp.=-8149999.00
+iteration 493 
+beta=1.55 --- nGRF=4.00 --- Acc=0.76 ---comp.=-17137499.00
+iteration 420 
+beta=1.45 --- nGRF=29.00 --- Acc=0.54 ---comp.=-8862499.00
+iteration 364 
+beta=1.40 --- nGRF=22.00 --- Acc=1.00 ---comp.=-9499999.00
+iteration 303 
+beta=1.35 --- nGRF=10.00 --- Acc=0.83 ---comp.=-13049999.00
+iteration 533 
+beta=1.55 --- nGRF=44.00 --- Acc=0.83 ---comp.=-7649999.00
+iteration 492 
+beta=1.55 --- nGRF=3.00 --- Acc=0.78 ---comp.=-20199999.00
+iteration 191 
+beta=1.20 --- nGRF=45.00 --- Acc=0.59 ---comp.=-7687499.00
+iteration 302 
+beta=1.35 --- nGRF=9.00 --- Acc=0.57 ---comp.=-13099999.00
+iteration 33 
+beta=1.05 --- nGRF=34.00 --- Acc=0.65 ---comp.=-8449999.00
+iteration 491 
+beta=1.55 --- nGRF=2.00 --- Acc=0.52 ---comp.=-20462499.00
+iteration 244 
+beta=1.25 --- nGRF=49.00 --- Acc=0.52 ---comp.=-7549999.00
+iteration 363 
+beta=1.40 --- nGRF=21.00 --- Acc=0.57 ---comp.=-10462499.00
+iteration 461 
+beta=1.50 --- nGRF=21.00 --- Acc=0.57 ---comp.=-10462499.00
+iteration 419 
+beta=1.45 --- nGRF=28.00 --- Acc=0.96 ---comp.=-8674999.00
+iteration 137 
+beta=1.15 --- nGRF=40.00 --- Acc=0.89 ---comp.=-8037499.00
+iteration 573 
+beta=1.60 --- nGRF=35.00 --- Acc=0.54 ---comp.=-8499999.00
+iteration 301 
+beta=1.35 --- nGRF=8.00 --- Acc=0.91 ---comp.=-14599999.00
+iteration 85 
+beta=1.10 --- nGRF=37.00 --- Acc=0.85 ---comp.=-8187499.00
+iteration 532 
+beta=1.55 --- nGRF=43.00 --- Acc=0.52 ---comp.=-7749999.00
+iteration 300 
+beta=1.35 --- nGRF=7.00 --- Acc=0.54 ---comp.=-14749999.00
+iteration 362 
+beta=1.40 --- nGRF=20.00 --- Acc=1.00 ---comp.=-9824999.00
+iteration 460 
+beta=1.50 --- nGRF=20.00 --- Acc=1.00 ---comp.=-9824999.00
+iteration 32 
+beta=1.05 --- nGRF=33.00 --- Acc=0.54 ---comp.=-8824999.00
+iteration 299 
+beta=1.35 --- nGRF=6.00 --- Acc=0.43 ---comp.=-14837499.00
+iteration 418 
+beta=1.45 --- nGRF=27.00 --- Acc=0.57 ---comp.=-9599999.00
+iteration 190 
+beta=1.20 --- nGRF=44.00 --- Acc=0.83 ---comp.=-7649999.00
+iteration 572 
+beta=1.60 --- nGRF=34.00 --- Acc=0.65 ---comp.=-8449999.00
+iteration 136 
+beta=1.15 --- nGRF=39.00 --- Acc=0.83 ---comp.=-8162499.00
+iteration 490 
+beta=1.50 --- nGRF=50.00 --- Acc=0.98 ---comp.=-6824999.00
+iteration 243 
+beta=1.25 --- nGRF=48.00 --- Acc=0.54 ---comp.=-7624999.00
+iteration 84 
+beta=1.10 --- nGRF=36.00 --- Acc=0.93 ---comp.=-8162499.00
+iteration 298 
+beta=1.35 --- nGRF=5.00 --- Acc=0.74 ---comp.=-17099999.00
+iteration 361 
+beta=1.40 --- nGRF=19.00 --- Acc=0.54 ---comp.=-10512499.00
+iteration 459 
+beta=1.50 --- nGRF=19.00 --- Acc=0.54 ---comp.=-10512499.00
+iteration 297 
+beta=1.35 --- nGRF=4.00 --- Acc=0.76 ---comp.=-17137499.00
+iteration 531 
+beta=1.55 --- nGRF=42.00 --- Acc=0.70 ---comp.=-7712499.00
+iteration 31 
+beta=1.05 --- nGRF=32.00 --- Acc=0.89 ---comp.=-8749999.00
+iteration 417 
+beta=1.45 --- nGRF=26.00 --- Acc=0.91 ---comp.=-9549999.00
+iteration 296 
+beta=1.35 --- nGRF=3.00 --- Acc=0.78 ---comp.=-20199999.00
+iteration 360 
+beta=1.40 --- nGRF=18.00 --- Acc=0.83 ---comp.=-10462499.00
+iteration 571 
+beta=1.60 --- nGRF=33.00 --- Acc=0.54 ---comp.=-8824999.00
+iteration 189 
+beta=1.20 --- nGRF=43.00 --- Acc=0.52 ---comp.=-7749999.00
+iteration 295 
+beta=1.35 --- nGRF=2.00 --- Acc=0.52 ---comp.=-20462499.00
+iteration 458 
+beta=1.50 --- nGRF=18.00 --- Acc=0.83 ---comp.=-10462499.00
+iteration 135 
+beta=1.15 --- nGRF=38.00 --- Acc=0.93 ---comp.=-8149999.00
+iteration 83 
+beta=1.10 --- nGRF=35.00 --- Acc=0.54 ---comp.=-8499999.00
+iteration 242 
+beta=1.25 --- nGRF=47.00 --- Acc=0.59 ---comp.=-7662499.00
+iteration 489 
+beta=1.50 --- nGRF=49.00 --- Acc=0.52 ---comp.=-7549999.00
+iteration 416 
+beta=1.45 --- nGRF=25.00 --- Acc=0.61 ---comp.=-9649999.00
+iteration 359 
+beta=1.40 --- nGRF=17.00 --- Acc=0.61 ---comp.=-11162499.00
+iteration 30 
+beta=1.05 --- nGRF=31.00 --- Acc=0.54 ---comp.=-8849999.00
+iteration 530 
+beta=1.55 --- nGRF=41.00 --- Acc=0.87 ---comp.=-8137499.00
+iteration 457 
+beta=1.50 --- nGRF=17.00 --- Acc=0.61 ---comp.=-11162499.00
+iteration 570 
+beta=1.60 --- nGRF=32.00 --- Acc=0.89 ---comp.=-8749999.00
+iteration 358 
+beta=1.40 --- nGRF=16.00 --- Acc=1.00 ---comp.=-10737499.00
+iteration 134 
+beta=1.15 --- nGRF=37.00 --- Acc=0.85 ---comp.=-8187499.00
+iteration 82 
+beta=1.10 --- nGRF=34.00 --- Acc=0.65 ---comp.=-8449999.00
+iteration 188 
+beta=1.20 --- nGRF=42.00 --- Acc=0.70 ---comp.=-7712499.00
+iteration 415 
+beta=1.45 --- nGRF=24.00 --- Acc=0.76 ---comp.=-9587499.00
+iteration 29 
+beta=1.05 --- nGRF=30.00 --- Acc=0.93 ---comp.=-8812499.00
+iteration 294 
+beta=1.30 --- nGRF=50.00 --- Acc=0.98 ---comp.=-6824999.00
+iteration 456 
+beta=1.50 --- nGRF=16.00 --- Acc=1.00 ---comp.=-10737499.00
+iteration 241 
+beta=1.25 --- nGRF=46.00 --- Acc=0.80 ---comp.=-7574999.00
+iteration 488 
+beta=1.50 --- nGRF=48.00 --- Acc=0.54 ---comp.=-7624999.00
+iteration 357 
+beta=1.40 --- nGRF=15.00 --- Acc=0.57 ---comp.=-11587499.00
+iteration 529 
+beta=1.55 --- nGRF=40.00 --- Acc=0.89 ---comp.=-8037499.00
+iteration 569 
+beta=1.60 --- nGRF=31.00 --- Acc=0.54 ---comp.=-8849999.00
+iteration 414 
+beta=1.45 --- nGRF=23.00 --- Acc=0.61 ---comp.=-9662499.00
+iteration 81 
+beta=1.10 --- nGRF=33.00 --- Acc=0.54 ---comp.=-8824999.00
+iteration 133 
+beta=1.15 --- nGRF=36.00 --- Acc=0.93 ---comp.=-8162499.00
+iteration 455 
+beta=1.50 --- nGRF=15.00 --- Acc=0.57 ---comp.=-11587499.00
+iteration 28 
+beta=1.05 --- nGRF=29.00 --- Acc=0.54 ---comp.=-8862499.00
+iteration 356 
+beta=1.40 --- nGRF=14.00 --- Acc=0.98 ---comp.=-11237499.00
+iteration 187 
+beta=1.20 --- nGRF=41.00 --- Acc=0.87 ---comp.=-8137499.00
+iteration 568 
+beta=1.60 --- nGRF=30.00 --- Acc=0.93 ---comp.=-8812499.00
+iteration 413 
+beta=1.45 --- nGRF=22.00 --- Acc=1.00 ---comp.=-9499999.00
+iteration 293 
+beta=1.30 --- nGRF=49.00 --- Acc=0.52 ---comp.=-7549999.00
+iteration 355 
+beta=1.40 --- nGRF=13.00 --- Acc=0.57 ---comp.=-11637499.00
+iteration 454 
+beta=1.50 --- nGRF=14.00 --- Acc=0.98 ---comp.=-11237499.00
+iteration 528 
+beta=1.55 --- nGRF=39.00 --- Acc=0.83 ---comp.=-8162499.00
+iteration 240 
+beta=1.25 --- nGRF=45.00 --- Acc=0.59 ---comp.=-7687499.00
+iteration 487 
+beta=1.50 --- nGRF=47.00 --- Acc=0.59 ---comp.=-7662499.00
+iteration 80 
+beta=1.10 --- nGRF=32.00 --- Acc=0.89 ---comp.=-8749999.00
+iteration 27 
+beta=1.05 --- nGRF=28.00 --- Acc=0.96 ---comp.=-8674999.00
+iteration 132 
+beta=1.15 --- nGRF=35.00 --- Acc=0.54 ---comp.=-8499999.00
+iteration 354 
+beta=1.40 --- nGRF=12.00 --- Acc=0.96 ---comp.=-11887499.00
+iteration 453 
+beta=1.50 --- nGRF=13.00 --- Acc=0.57 ---comp.=-11637499.00
+iteration 412 
+beta=1.45 --- nGRF=21.00 --- Acc=0.57 ---comp.=-10462499.00
+iteration 186 
+beta=1.20 --- nGRF=40.00 --- Acc=0.89 ---comp.=-8037499.00
+iteration 567 
+beta=1.60 --- nGRF=29.00 --- Acc=0.54 ---comp.=-8862499.00
+iteration 527 
+beta=1.55 --- nGRF=38.00 --- Acc=0.93 ---comp.=-8149999.00
+iteration 26 
+beta=1.05 --- nGRF=27.00 --- Acc=0.57 ---comp.=-9599999.00
+iteration 353 
+beta=1.40 --- nGRF=11.00 --- Acc=0.63 ---comp.=-13074999.00
+iteration 79 
+beta=1.10 --- nGRF=31.00 --- Acc=0.54 ---comp.=-8849999.00
+iteration 292 
+beta=1.30 --- nGRF=48.00 --- Acc=0.54 ---comp.=-7624999.00
+iteration 452 
+beta=1.50 --- nGRF=12.00 --- Acc=0.96 ---comp.=-11887499.00
+iteration 239 
+beta=1.25 --- nGRF=44.00 --- Acc=0.83 ---comp.=-7649999.00
+iteration 131 
+beta=1.15 --- nGRF=34.00 --- Acc=0.65 ---comp.=-8449999.00
+iteration 411 
+beta=1.45 --- nGRF=20.00 --- Acc=1.00 ---comp.=-9824999.00
+iteration 486 
+beta=1.50 --- nGRF=46.00 --- Acc=0.80 ---comp.=-7574999.00
+iteration 566 
+beta=1.60 --- nGRF=28.00 --- Acc=0.96 ---comp.=-8674999.00
+iteration 352 
+beta=1.40 --- nGRF=10.00 --- Acc=0.83 ---comp.=-13049999.00
+iteration 451 
+beta=1.50 --- nGRF=11.00 --- Acc=0.63 ---comp.=-13074999.00
+iteration 185 
+beta=1.20 --- nGRF=39.00 --- Acc=0.83 ---comp.=-8162499.00
+iteration 25 
+beta=1.05 --- nGRF=26.00 --- Acc=0.91 ---comp.=-9549999.00
+iteration 410 
+beta=1.45 --- nGRF=19.00 --- Acc=0.54 ---comp.=-10512499.00
+iteration 78 
+beta=1.10 --- nGRF=30.00 --- Acc=0.93 ---comp.=-8812499.00
+iteration 526 
+beta=1.55 --- nGRF=37.00 --- Acc=0.85 ---comp.=-8187499.00
+iteration 130 
+beta=1.15 --- nGRF=33.00 --- Acc=0.54 ---comp.=-8824999.00
+iteration 450 
+beta=1.50 --- nGRF=10.00 --- Acc=0.83 ---comp.=-13049999.00
+iteration 351 
+beta=1.40 --- nGRF=9.00 --- Acc=0.57 ---comp.=-13099999.00
+iteration 565 
+beta=1.60 --- nGRF=27.00 --- Acc=0.57 ---comp.=-9599999.00
+iteration 291 
+beta=1.30 --- nGRF=47.00 --- Acc=0.59 ---comp.=-7662499.00
+iteration 238 
+beta=1.25 --- nGRF=43.00 --- Acc=0.52 ---comp.=-7749999.00
+iteration 485 
+beta=1.50 --- nGRF=45.00 --- Acc=0.59 ---comp.=-7687499.00
+iteration 409 
+beta=1.45 --- nGRF=18.00 --- Acc=0.83 ---comp.=-10462499.00
+iteration 24 
+beta=1.05 --- nGRF=25.00 --- Acc=0.61 ---comp.=-9649999.00
+iteration 449 
+beta=1.50 --- nGRF=9.00 --- Acc=0.57 ---comp.=-13099999.00
+iteration 184 
+beta=1.20 --- nGRF=38.00 --- Acc=0.93 ---comp.=-8149999.00
+iteration 350 
+beta=1.40 --- nGRF=8.00 --- Acc=0.91 ---comp.=-14599999.00
+iteration 77 
+beta=1.10 --- nGRF=29.00 --- Acc=0.54 ---comp.=-8862499.00
+iteration 525 
+beta=1.55 --- nGRF=36.00 --- Acc=0.93 ---comp.=-8162499.00
+iteration 129 
+beta=1.15 --- nGRF=32.00 --- Acc=0.89 ---comp.=-8749999.00
+iteration 564 
+beta=1.60 --- nGRF=26.00 --- Acc=0.91 ---comp.=-9549999.00
+iteration 408 
+beta=1.45 --- nGRF=17.00 --- Acc=0.61 ---comp.=-11162499.00
+iteration 448 
+beta=1.50 --- nGRF=8.00 --- Acc=0.91 ---comp.=-14599999.00
+iteration 23 
+beta=1.05 --- nGRF=24.00 --- Acc=0.76 ---comp.=-9587499.00
+iteration 349 
+beta=1.40 --- nGRF=7.00 --- Acc=0.54 ---comp.=-14749999.00
+iteration 237 
+beta=1.25 --- nGRF=42.00 --- Acc=0.70 ---comp.=-7712499.00
+iteration 290 
+beta=1.30 --- nGRF=46.00 --- Acc=0.80 ---comp.=-7574999.00
+iteration 484 
+beta=1.50 --- nGRF=44.00 --- Acc=0.83 ---comp.=-7649999.00
+iteration 447 
+beta=1.50 --- nGRF=7.00 --- Acc=0.54 ---comp.=-14749999.00
+iteration 76 
+beta=1.10 --- nGRF=28.00 --- Acc=0.96 ---comp.=-8674999.00
+iteration 407 
+beta=1.45 --- nGRF=16.00 --- Acc=1.00 ---comp.=-10737499.00
+iteration 183 
+beta=1.20 --- nGRF=37.00 --- Acc=0.85 ---comp.=-8187499.00
+iteration 563 
+beta=1.60 --- nGRF=25.00 --- Acc=0.61 ---comp.=-9649999.00
+iteration 348 
+beta=1.40 --- nGRF=6.00 --- Acc=0.43 ---comp.=-14837499.00
+iteration 128 
+beta=1.15 --- nGRF=31.00 --- Acc=0.54 ---comp.=-8849999.00
+iteration 524 
+beta=1.55 --- nGRF=35.00 --- Acc=0.54 ---comp.=-8499999.00
+iteration 22 
+beta=1.05 --- nGRF=23.00 --- Acc=0.61 ---comp.=-9662499.00
+iteration 446 
+beta=1.50 --- nGRF=6.00 --- Acc=0.43 ---comp.=-14837499.00
+iteration 406 
+beta=1.45 --- nGRF=15.00 --- Acc=0.57 ---comp.=-11587499.00
+iteration 347 
+beta=1.40 --- nGRF=5.00 --- Acc=0.74 ---comp.=-17099999.00
+iteration 445 
+beta=1.50 --- nGRF=5.00 --- Acc=0.74 ---comp.=-17099999.00
+iteration 75 
+beta=1.10 --- nGRF=27.00 --- Acc=0.57 ---comp.=-9599999.00
+iteration 236 
+beta=1.25 --- nGRF=41.00 --- Acc=0.87 ---comp.=-8137499.00
+iteration 289 
+beta=1.30 --- nGRF=45.00 --- Acc=0.59 ---comp.=-7687499.00
+iteration 659 
+beta=1.70 --- nGRF=23.00 --- Acc=0.61 ---comp.=-9662499.00
+iteration 21 
+beta=1.05 --- nGRF=22.00 --- Acc=1.00 ---comp.=-9499999.00
+iteration 483 
+beta=1.50 --- nGRF=43.00 --- Acc=0.52 ---comp.=-7749999.00
+iteration 127 
+beta=1.15 --- nGRF=30.00 --- Acc=0.93 ---comp.=-8812499.00
+iteration 182 
+beta=1.20 --- nGRF=36.00 --- Acc=0.93 ---comp.=-8162499.00
+iteration 444 
+beta=1.50 --- nGRF=4.00 --- Acc=0.76 ---comp.=-17137499.00
+iteration 346 
+beta=1.40 --- nGRF=4.00 --- Acc=0.76 ---comp.=-17137499.00
+iteration 405 
+beta=1.45 --- nGRF=14.00 --- Acc=0.98 ---comp.=-11237499.00
+iteration 629 
+beta=1.65 --- nGRF=42.00 --- Acc=0.70 ---comp.=-7712499.00
+iteration 443 
+beta=1.50 --- nGRF=3.00 --- Acc=0.78 ---comp.=-20199999.00
+iteration 345 
+beta=1.40 --- nGRF=3.00 --- Acc=0.78 ---comp.=-20199999.00
+iteration 74 
+beta=1.10 --- nGRF=26.00 --- Acc=0.91 ---comp.=-9549999.00
+iteration 404 
+beta=1.45 --- nGRF=13.00 --- Acc=0.57 ---comp.=-11637499.00
+iteration 658 
+beta=1.70 --- nGRF=22.00 --- Acc=1.00 ---comp.=-9499999.00
+iteration 20 
+beta=1.05 --- nGRF=21.00 --- Acc=0.57 ---comp.=-10462499.00
+iteration 442 
+beta=1.50 --- nGRF=2.00 --- Acc=0.52 ---comp.=-20462499.00
+iteration 126 
+beta=1.15 --- nGRF=29.00 --- Acc=0.54 ---comp.=-8862499.00
+iteration 235 
+beta=1.25 --- nGRF=40.00 --- Acc=0.89 ---comp.=-8037499.00
+iteration 344 
+beta=1.40 --- nGRF=2.00 --- Acc=0.52 ---comp.=-20462499.00
+iteration 181 
+beta=1.20 --- nGRF=35.00 --- Acc=0.54 ---comp.=-8499999.00
+iteration 288 
+beta=1.30 --- nGRF=44.00 --- Acc=0.83 ---comp.=-7649999.00
+iteration 482 
+beta=1.50 --- nGRF=42.00 --- Acc=0.70 ---comp.=-7712499.00
+iteration 403 
+beta=1.45 --- nGRF=12.00 --- Acc=0.96 ---comp.=-11887499.00
+iteration 628 
+beta=1.65 --- nGRF=41.00 --- Acc=0.87 ---comp.=-8137499.00
+iteration 19 
+beta=1.05 --- nGRF=20.00 --- Acc=1.00 ---comp.=-9824999.00
+iteration 657 
+beta=1.70 --- nGRF=21.00 --- Acc=0.57 ---comp.=-10462499.00
+iteration 73 
+beta=1.10 --- nGRF=25.00 --- Acc=0.61 ---comp.=-9649999.00
+iteration 402 
+beta=1.45 --- nGRF=11.00 --- Acc=0.63 ---comp.=-13074999.00
+iteration 125 
+beta=1.15 --- nGRF=28.00 --- Acc=0.96 ---comp.=-8674999.00
+iteration 18 
+beta=1.05 --- nGRF=19.00 --- Acc=0.54 ---comp.=-10512499.00
+iteration 180 
+beta=1.20 --- nGRF=34.00 --- Acc=0.65 ---comp.=-8449999.00
+iteration 656 
+beta=1.70 --- nGRF=20.00 --- Acc=1.00 ---comp.=-9824999.00
+iteration 234 
+beta=1.25 --- nGRF=39.00 --- Acc=0.83 ---comp.=-8162499.00
+iteration 401 
+beta=1.45 --- nGRF=10.00 --- Acc=0.83 ---comp.=-13049999.00
+iteration 72 
+beta=1.10 --- nGRF=24.00 --- Acc=0.76 ---comp.=-9587499.00
+iteration 287 
+beta=1.30 --- nGRF=43.00 --- Acc=0.52 ---comp.=-7749999.00
+iteration 441 
+beta=1.45 --- nGRF=50.00 --- Acc=0.98 ---comp.=-6824999.00
+iteration 627 
+beta=1.65 --- nGRF=40.00 --- Acc=0.89 ---comp.=-8037499.00
+iteration 686 
+beta=1.70 --- nGRF=50.00 --- Acc=0.98 ---comp.=-6824999.00
+iteration 124 
+beta=1.15 --- nGRF=27.00 --- Acc=0.57 ---comp.=-9599999.00
+iteration 400 
+beta=1.45 --- nGRF=9.00 --- Acc=0.57 ---comp.=-13099999.00
+iteration 17 
+beta=1.05 --- nGRF=18.00 --- Acc=0.83 ---comp.=-10462499.00
+iteration 343 
+beta=1.35 --- nGRF=50.00 --- Acc=0.98 ---comp.=-6824999.00
+iteration 655 
+beta=1.70 --- nGRF=19.00 --- Acc=0.54 ---comp.=-10512499.00
+iteration 71 
+beta=1.10 --- nGRF=23.00 --- Acc=0.61 ---comp.=-9662499.00
+iteration 179 
+beta=1.20 --- nGRF=33.00 --- Acc=0.54 ---comp.=-8824999.00
+iteration 399 
+beta=1.45 --- nGRF=8.00 --- Acc=0.91 ---comp.=-14599999.00
+iteration 233 
+beta=1.25 --- nGRF=38.00 --- Acc=0.93 ---comp.=-8149999.00
+iteration 16 
+beta=1.05 --- nGRF=17.00 --- Acc=0.61 ---comp.=-11162499.00
+iteration 123 
+beta=1.15 --- nGRF=26.00 --- Acc=0.91 ---comp.=-9549999.00
+iteration 654 
+beta=1.70 --- nGRF=18.00 --- Acc=0.83 ---comp.=-10462499.00
+iteration 286 
+beta=1.30 --- nGRF=42.00 --- Acc=0.70 ---comp.=-7712499.00
+iteration 398 
+beta=1.45 --- nGRF=7.00 --- Acc=0.54 ---comp.=-14749999.00
+iteration 626 
+beta=1.65 --- nGRF=39.00 --- Acc=0.83 ---comp.=-8162499.00
+iteration 70 
+beta=1.10 --- nGRF=22.00 --- Acc=1.00 ---comp.=-9499999.00
+iteration 685 
+beta=1.70 --- nGRF=49.00 --- Acc=0.52 ---comp.=-7549999.00
+iteration 440 
+beta=1.45 --- nGRF=49.00 --- Acc=0.52 ---comp.=-7549999.00
+iteration 397 
+beta=1.45 --- nGRF=6.00 --- Acc=0.43 ---comp.=-14837499.00
+iteration 15 
+beta=1.05 --- nGRF=16.00 --- Acc=1.00 ---comp.=-10737499.00
+iteration 653 
+beta=1.70 --- nGRF=17.00 --- Acc=0.61 ---comp.=-11162499.00
+iteration 178 
+beta=1.20 --- nGRF=32.00 --- Acc=0.89 ---comp.=-8749999.00
+iteration 122 
+beta=1.15 --- nGRF=25.00 --- Acc=0.61 ---comp.=-9649999.00
+iteration 232 
+beta=1.25 --- nGRF=37.00 --- Acc=0.85 ---comp.=-8187499.00
+iteration 396 
+beta=1.45 --- nGRF=5.00 --- Acc=0.74 ---comp.=-17099999.00
+iteration 342 
+beta=1.35 --- nGRF=49.00 --- Acc=0.52 ---comp.=-7549999.00
+iteration 69 
+beta=1.10 --- nGRF=21.00 --- Acc=0.57 ---comp.=-10462499.00
+iteration 14 
+beta=1.05 --- nGRF=15.00 --- Acc=0.57 ---comp.=-11587499.00
+iteration 285 
+beta=1.30 --- nGRF=41.00 --- Acc=0.87 ---comp.=-8137499.00
+iteration 625 
+beta=1.65 --- nGRF=38.00 --- Acc=0.93 ---comp.=-8149999.00
+iteration 652 
+beta=1.70 --- nGRF=16.00 --- Acc=1.00 ---comp.=-10737499.00
+iteration 395 
+beta=1.45 --- nGRF=4.00 --- Acc=0.76 ---comp.=-17137499.00
+iteration 121 
+beta=1.15 --- nGRF=24.00 --- Acc=0.76 ---comp.=-9587499.00
+iteration 394 
+beta=1.45 --- nGRF=3.00 --- Acc=0.78 ---comp.=-20199999.00
+iteration 177 
+beta=1.20 --- nGRF=31.00 --- Acc=0.54 ---comp.=-8849999.00
+iteration 13 
+beta=1.05 --- nGRF=14.00 --- Acc=0.98 ---comp.=-11237499.00
+iteration 68 
+beta=1.10 --- nGRF=20.00 --- Acc=1.00 ---comp.=-9824999.00
+iteration 684 
+beta=1.70 --- nGRF=48.00 --- Acc=0.54 ---comp.=-7624999.00
+iteration 651 
+beta=1.70 --- nGRF=15.00 --- Acc=0.57 ---comp.=-11587499.00
+iteration 393 
+beta=1.45 --- nGRF=2.00 --- Acc=0.52 ---comp.=-20462499.00
+iteration 231 
+beta=1.25 --- nGRF=36.00 --- Acc=0.93 ---comp.=-8162499.00
+iteration 439 
+beta=1.45 --- nGRF=48.00 --- Acc=0.54 ---comp.=-7624999.00
+iteration 12 
+beta=1.05 --- nGRF=13.00 --- Acc=0.57 ---comp.=-11637499.00
+iteration 624 
+beta=1.65 --- nGRF=37.00 --- Acc=0.85 ---comp.=-8187499.00
+iteration 284 
+beta=1.30 --- nGRF=40.00 --- Acc=0.89 ---comp.=-8037499.00
+iteration 120 
+beta=1.15 --- nGRF=23.00 --- Acc=0.61 ---comp.=-9662499.00
+iteration 650 
+beta=1.70 --- nGRF=14.00 --- Acc=0.98 ---comp.=-11237499.00
+iteration 67 
+beta=1.10 --- nGRF=19.00 --- Acc=0.54 ---comp.=-10512499.00
+iteration 341 
+beta=1.35 --- nGRF=48.00 --- Acc=0.54 ---comp.=-7624999.00
+iteration 176 
+beta=1.20 --- nGRF=30.00 --- Acc=0.93 ---comp.=-8812499.00
+iteration 11 
+beta=1.05 --- nGRF=12.00 --- Acc=0.96 ---comp.=-11887499.00
+iteration 649 
+beta=1.70 --- nGRF=13.00 --- Acc=0.57 ---comp.=-11637499.00
+iteration 230 
+beta=1.25 --- nGRF=35.00 --- Acc=0.54 ---comp.=-8499999.00
+iteration 119 
+beta=1.15 --- nGRF=22.00 --- Acc=1.00 ---comp.=-9499999.00
+iteration 683 
+beta=1.70 --- nGRF=47.00 --- Acc=0.59 ---comp.=-7662499.00
+iteration 66 
+beta=1.10 --- nGRF=18.00 --- Acc=0.83 ---comp.=-10462499.00
+iteration 10 
+beta=1.05 --- nGRF=11.00 --- Acc=0.63 ---comp.=-13074999.00
+iteration 623 
+beta=1.65 --- nGRF=36.00 --- Acc=0.93 ---comp.=-8162499.00
+iteration 392 
+beta=1.40 --- nGRF=50.00 --- Acc=0.98 ---comp.=-6824999.00
+iteration 438 
+beta=1.45 --- nGRF=47.00 --- Acc=0.59 ---comp.=-7662499.00
+iteration 283 
+beta=1.30 --- nGRF=39.00 --- Acc=0.83 ---comp.=-8162499.00
+iteration 175 
+beta=1.20 --- nGRF=29.00 --- Acc=0.54 ---comp.=-8862499.00
+iteration 648 
+beta=1.70 --- nGRF=12.00 --- Acc=0.96 ---comp.=-11887499.00
+iteration 9 
+beta=1.05 --- nGRF=10.00 --- Acc=0.83 ---comp.=-13049999.00
+iteration 118 
+beta=1.15 --- nGRF=21.00 --- Acc=0.57 ---comp.=-10462499.00
+iteration 65 
+beta=1.10 --- nGRF=17.00 --- Acc=0.61 ---comp.=-11162499.00
+iteration 647 
+beta=1.70 --- nGRF=11.00 --- Acc=0.63 ---comp.=-13074999.00
+iteration 229 
+beta=1.25 --- nGRF=34.00 --- Acc=0.65 ---comp.=-8449999.00
+iteration 340 
+beta=1.35 --- nGRF=47.00 --- Acc=0.59 ---comp.=-7662499.00
+iteration 8 
+beta=1.05 --- nGRF=9.00 --- Acc=0.57 ---comp.=-13099999.00
+iteration 622 
+beta=1.65 --- nGRF=35.00 --- Acc=0.54 ---comp.=-8499999.00
+iteration 682 
+beta=1.70 --- nGRF=46.00 --- Acc=0.80 ---comp.=-7574999.00
+iteration 174 
+beta=1.20 --- nGRF=28.00 --- Acc=0.96 ---comp.=-8674999.00
+iteration 64 
+beta=1.10 --- nGRF=16.00 --- Acc=1.00 ---comp.=-10737499.00
+iteration 646 
+beta=1.70 --- nGRF=10.00 --- Acc=0.83 ---comp.=-13049999.00
+iteration 117 
+beta=1.15 --- nGRF=20.00 --- Acc=1.00 ---comp.=-9824999.00
+iteration 282 
+beta=1.30 --- nGRF=38.00 --- Acc=0.93 ---comp.=-8149999.00
+iteration 7 
+beta=1.05 --- nGRF=8.00 --- Acc=0.91 ---comp.=-14599999.00
+iteration 391 
+beta=1.40 --- nGRF=49.00 --- Acc=0.52 ---comp.=-7549999.00
+iteration 437 
+beta=1.45 --- nGRF=46.00 --- Acc=0.80 ---comp.=-7574999.00
+iteration 645 
+beta=1.70 --- nGRF=9.00 --- Acc=0.57 ---comp.=-13099999.00
+iteration 6 
+beta=1.05 --- nGRF=7.00 --- Acc=0.54 ---comp.=-14749999.00
+iteration 63 
+beta=1.10 --- nGRF=15.00 --- Acc=0.57 ---comp.=-11587499.00
+iteration 228 
+beta=1.25 --- nGRF=33.00 --- Acc=0.54 ---comp.=-8824999.00
+iteration 116 
+beta=1.15 --- nGRF=19.00 --- Acc=0.54 ---comp.=-10512499.00
+iteration 173 
+beta=1.20 --- nGRF=27.00 --- Acc=0.57 ---comp.=-9599999.00
+iteration 621 
+beta=1.65 --- nGRF=34.00 --- Acc=0.65 ---comp.=-8449999.00
+iteration 644 
+beta=1.70 --- nGRF=8.00 --- Acc=0.91 ---comp.=-14599999.00
+iteration 5 
+beta=1.05 --- nGRF=6.00 --- Acc=0.43 ---comp.=-14837499.00
+iteration 281 
+beta=1.30 --- nGRF=37.00 --- Acc=0.85 ---comp.=-8187499.00
+iteration 681 
+beta=1.70 --- nGRF=45.00 --- Acc=0.59 ---comp.=-7687499.00
+iteration 62 
+beta=1.10 --- nGRF=14.00 --- Acc=0.98 ---comp.=-11237499.00
+iteration 339 
+beta=1.35 --- nGRF=46.00 --- Acc=0.80 ---comp.=-7574999.00
+iteration 643 
+beta=1.70 --- nGRF=7.00 --- Acc=0.54 ---comp.=-14749999.00
+iteration 4 
+beta=1.05 --- nGRF=5.00 --- Acc=0.74 ---comp.=-17099999.00
+iteration 115 
+beta=1.15 --- nGRF=18.00 --- Acc=0.83 ---comp.=-10462499.00
+iteration 227 
+beta=1.25 --- nGRF=32.00 --- Acc=0.89 ---comp.=-8749999.00
+iteration 390 
+beta=1.40 --- nGRF=48.00 --- Acc=0.54 ---comp.=-7624999.00
+iteration 3 
+beta=1.05 --- nGRF=4.00 --- Acc=0.76 ---comp.=-17137499.00
+iteration 172 
+beta=1.20 --- nGRF=26.00 --- Acc=0.91 ---comp.=-9549999.00
+iteration 642 
+beta=1.70 --- nGRF=6.00 --- Acc=0.43 ---comp.=-14837499.00
+iteration 61 
+beta=1.10 --- nGRF=13.00 --- Acc=0.57 ---comp.=-11637499.00
+iteration 436 
+beta=1.45 --- nGRF=45.00 --- Acc=0.59 ---comp.=-7687499.00
+iteration 620 
+beta=1.65 --- nGRF=33.00 --- Acc=0.54 ---comp.=-8824999.00
+iteration 114 
+beta=1.15 --- nGRF=17.00 --- Acc=0.61 ---comp.=-11162499.00
+iteration 2 
+beta=1.05 --- nGRF=3.00 --- Acc=0.78 ---comp.=-20199999.00
+iteration 641 
+beta=1.70 --- nGRF=5.00 --- Acc=0.74 ---comp.=-17099999.00
+iteration 280 
+beta=1.30 --- nGRF=36.00 --- Acc=0.93 ---comp.=-8162499.00
+iteration 60 
+beta=1.10 --- nGRF=12.00 --- Acc=0.96 ---comp.=-11887499.00
+iteration 1 
+beta=1.05 --- nGRF=2.00 --- Acc=0.52 ---comp.=-20462499.00
+iteration 680 
+beta=1.70 --- nGRF=44.00 --- Acc=0.83 ---comp.=-7649999.00
+iteration 640 
+beta=1.70 --- nGRF=4.00 --- Acc=0.76 ---comp.=-17137499.00
+iteration 171 
+beta=1.20 --- nGRF=25.00 --- Acc=0.61 ---comp.=-9649999.00
+iteration 226 
+beta=1.25 --- nGRF=31.00 --- Acc=0.54 ---comp.=-8849999.00
+iteration 113 
+beta=1.15 --- nGRF=16.00 --- Acc=1.00 ---comp.=-10737499.00
+iteration 711 
+beta=1.75 --- nGRF=26.00 --- Acc=0.91 ---comp.=-9549999.00
+iteration 639 
+beta=1.70 --- nGRF=3.00 --- Acc=0.78 ---comp.=-20199999.00
+iteration 59 
+beta=1.10 --- nGRF=11.00 --- Acc=0.63 ---comp.=-13074999.00
+iteration 338 
+beta=1.35 --- nGRF=45.00 --- Acc=0.59 ---comp.=-7687499.00
+iteration 619 
+beta=1.65 --- nGRF=32.00 --- Acc=0.89 ---comp.=-8749999.00
+iteration 389 
+beta=1.40 --- nGRF=47.00 --- Acc=0.59 ---comp.=-7662499.00
+iteration 638 
+beta=1.70 --- nGRF=2.00 --- Acc=0.52 ---comp.=-20462499.00
+iteration 279 
+beta=1.30 --- nGRF=35.00 --- Acc=0.54 ---comp.=-8499999.00
+iteration 112 
+beta=1.15 --- nGRF=15.00 --- Acc=0.57 ---comp.=-11587499.00
+iteration 58 
+beta=1.10 --- nGRF=10.00 --- Acc=0.83 ---comp.=-13049999.00
+iteration 170 
+beta=1.20 --- nGRF=24.00 --- Acc=0.76 ---comp.=-9587499.00
+iteration 225 
+beta=1.25 --- nGRF=30.00 --- Acc=0.93 ---comp.=-8812499.00
+iteration 679 
+beta=1.70 --- nGRF=43.00 --- Acc=0.52 ---comp.=-7749999.00
+iteration 734 
+beta=1.75 --- nGRF=49.00 --- Acc=0.52 ---comp.=-7549999.00
+iteration 710 
+beta=1.75 --- nGRF=25.00 --- Acc=0.61 ---comp.=-9649999.00
+iteration 618 
+beta=1.65 --- nGRF=31.00 --- Acc=0.54 ---comp.=-8849999.00
+iteration 57 
+beta=1.10 --- nGRF=9.00 --- Acc=0.57 ---comp.=-13099999.00
+iteration 111 
+beta=1.15 --- nGRF=14.00 --- Acc=0.98 ---comp.=-11237499.00
+iteration 169 
+beta=1.20 --- nGRF=23.00 --- Acc=0.61 ---comp.=-9662499.00
+iteration 278 
+beta=1.30 --- nGRF=34.00 --- Acc=0.65 ---comp.=-8449999.00
+iteration 388 
+beta=1.40 --- nGRF=46.00 --- Acc=0.80 ---comp.=-7574999.00
+iteration 56 
+beta=1.10 --- nGRF=8.00 --- Acc=0.91 ---comp.=-14599999.00
+iteration 337 
+beta=1.35 --- nGRF=44.00 --- Acc=0.83 ---comp.=-7649999.00
+iteration 224 
+beta=1.25 --- nGRF=29.00 --- Acc=0.54 ---comp.=-8862499.00
+iteration 637 
+beta=1.65 --- nGRF=50.00 --- Acc=0.98 ---comp.=-6824999.00
+iteration 755 
+beta=1.80 --- nGRF=21.00 --- Acc=0.57 ---comp.=-10462499.00
+iteration 709 
+beta=1.75 --- nGRF=24.00 --- Acc=0.76 ---comp.=-9587499.00
+iteration 617 
+beta=1.65 --- nGRF=30.00 --- Acc=0.93 ---comp.=-8812499.00
+iteration 678 
+beta=1.70 --- nGRF=42.00 --- Acc=0.70 ---comp.=-7712499.00
+iteration 168 
+beta=1.20 --- nGRF=22.00 --- Acc=1.00 ---comp.=-9499999.00
+iteration 733 
+beta=1.75 --- nGRF=48.00 --- Acc=0.54 ---comp.=-7624999.00
+iteration 277 
+beta=1.30 --- nGRF=33.00 --- Acc=0.54 ---comp.=-8824999.00
+iteration 754 
+beta=1.80 --- nGRF=20.00 --- Acc=1.00 ---comp.=-9824999.00
+iteration 223 
+beta=1.25 --- nGRF=28.00 --- Acc=0.96 ---comp.=-8674999.00
+iteration 774 
+beta=1.80 --- nGRF=40.00 --- Acc=0.89 ---comp.=-8037499.00
+iteration 708 
+beta=1.75 --- nGRF=23.00 --- Acc=0.61 ---comp.=-9662499.00
+iteration 387 
+beta=1.40 --- nGRF=45.00 --- Acc=0.59 ---comp.=-7687499.00
+iteration 616 
+beta=1.65 --- nGRF=29.00 --- Acc=0.54 ---comp.=-8862499.00
+iteration 167 
+beta=1.20 --- nGRF=21.00 --- Acc=0.57 ---comp.=-10462499.00
+iteration 336 
+beta=1.35 --- nGRF=43.00 --- Acc=0.52 ---comp.=-7749999.00
+iteration 636 
+beta=1.65 --- nGRF=49.00 --- Acc=0.52 ---comp.=-7549999.00
+iteration 753 
+beta=1.80 --- nGRF=19.00 --- Acc=0.54 ---comp.=-10512499.00
+iteration 677 
+beta=1.70 --- nGRF=41.00 --- Acc=0.87 ---comp.=-8137499.00
+iteration 276 
+beta=1.30 --- nGRF=32.00 --- Acc=0.89 ---comp.=-8749999.00
+iteration 222 
+beta=1.25 --- nGRF=27.00 --- Acc=0.57 ---comp.=-9599999.00
+iteration 732 
+beta=1.75 --- nGRF=47.00 --- Acc=0.59 ---comp.=-7662499.00
+iteration 707 
+beta=1.75 --- nGRF=22.00 --- Acc=1.00 ---comp.=-9499999.00
+iteration 166 
+beta=1.20 --- nGRF=20.00 --- Acc=1.00 ---comp.=-9824999.00
+iteration 615 
+beta=1.65 --- nGRF=28.00 --- Acc=0.96 ---comp.=-8674999.00
+iteration 773 
+beta=1.80 --- nGRF=39.00 --- Acc=0.83 ---comp.=-8162499.00
+iteration 752 
+beta=1.80 --- nGRF=18.00 --- Acc=0.83 ---comp.=-10462499.00
+iteration 792 
+beta=1.85 --- nGRF=9.00 --- Acc=0.57 ---comp.=-13099999.00
+iteration 386 
+beta=1.40 --- nGRF=44.00 --- Acc=0.83 ---comp.=-7649999.00
+iteration 791 
+beta=1.85 --- nGRF=8.00 --- Acc=0.91 ---comp.=-14599999.00
+iteration 221 
+beta=1.25 --- nGRF=26.00 --- Acc=0.91 ---comp.=-9549999.00
+iteration 706 
+beta=1.75 --- nGRF=21.00 --- Acc=0.57 ---comp.=-10462499.00
+iteration 635 
+beta=1.65 --- nGRF=48.00 --- Acc=0.54 ---comp.=-7624999.00
+iteration 676 
+beta=1.70 --- nGRF=40.00 --- Acc=0.89 ---comp.=-8037499.00
+iteration 751 
+beta=1.80 --- nGRF=17.00 --- Acc=0.61 ---comp.=-11162499.00
+iteration 808 
+beta=1.85 --- nGRF=25.00 --- Acc=0.61 ---comp.=-9649999.00
+iteration 335 
+beta=1.35 --- nGRF=42.00 --- Acc=0.70 ---comp.=-7712499.00
+iteration 614 
+beta=1.65 --- nGRF=27.00 --- Acc=0.57 ---comp.=-9599999.00
+iteration 790 
+beta=1.85 --- nGRF=7.00 --- Acc=0.54 ---comp.=-14749999.00
+iteration 837 
+beta=1.90 --- nGRF=5.00 --- Acc=0.74 ---comp.=-17099999.00
+iteration 731 
+beta=1.75 --- nGRF=46.00 --- Acc=0.80 ---comp.=-7574999.00
+iteration 772 
+beta=1.80 --- nGRF=38.00 --- Acc=0.93 ---comp.=-8149999.00
+iteration 789 
+beta=1.85 --- nGRF=6.00 --- Acc=0.43 ---comp.=-14837499.00
+iteration 750 
+beta=1.80 --- nGRF=16.00 --- Acc=1.00 ---comp.=-10737499.00
+iteration 836 
+beta=1.90 --- nGRF=4.00 --- Acc=0.76 ---comp.=-17137499.00
+iteration 823 
+beta=1.85 --- nGRF=40.00 --- Acc=0.89 ---comp.=-8037499.00
+iteration 705 
+beta=1.75 --- nGRF=20.00 --- Acc=1.00 ---comp.=-9824999.00
+iteration 807 
+beta=1.85 --- nGRF=24.00 --- Acc=0.76 ---comp.=-9587499.00
+iteration 613 
+beta=1.65 --- nGRF=26.00 --- Acc=0.91 ---comp.=-9549999.00
+iteration 788 
+beta=1.85 --- nGRF=5.00 --- Acc=0.74 ---comp.=-17099999.00
+iteration 835 
+beta=1.90 --- nGRF=3.00 --- Acc=0.78 ---comp.=-20199999.00
+iteration 675 
+beta=1.70 --- nGRF=39.00 --- Acc=0.83 ---comp.=-8162499.00
+iteration 749 
+beta=1.80 --- nGRF=15.00 --- Acc=0.57 ---comp.=-11587499.00
+iteration 634 
+beta=1.65 --- nGRF=47.00 --- Acc=0.59 ---comp.=-7662499.00
+iteration 787 
+beta=1.85 --- nGRF=4.00 --- Acc=0.76 ---comp.=-17137499.00
+iteration 834 
+beta=1.90 --- nGRF=2.00 --- Acc=0.52 ---comp.=-20462499.00
+iteration 704 
+beta=1.75 --- nGRF=19.00 --- Acc=0.54 ---comp.=-10512499.00
+iteration 771 
+beta=1.80 --- nGRF=37.00 --- Acc=0.85 ---comp.=-8187499.00
+iteration 334 
+beta=1.35 --- nGRF=41.00 --- Acc=0.87 ---comp.=-8137499.00
+iteration 730 
+beta=1.75 --- nGRF=45.00 --- Acc=0.59 ---comp.=-7687499.00
+iteration 786 
+beta=1.85 --- nGRF=3.00 --- Acc=0.78 ---comp.=-20199999.00
+iteration 806 
+beta=1.85 --- nGRF=23.00 --- Acc=0.61 ---comp.=-9662499.00
+iteration 612 
+beta=1.65 --- nGRF=25.00 --- Acc=0.61 ---comp.=-9649999.00
+iteration 748 
+beta=1.80 --- nGRF=14.00 --- Acc=0.98 ---comp.=-11237499.00
+iteration 822 
+beta=1.85 --- nGRF=39.00 --- Acc=0.83 ---comp.=-8162499.00
+iteration 785 
+beta=1.85 --- nGRF=2.00 --- Acc=0.52 ---comp.=-20462499.00
+iteration 674 
+beta=1.70 --- nGRF=38.00 --- Acc=0.93 ---comp.=-8149999.00
+iteration 703 
+beta=1.75 --- nGRF=18.00 --- Acc=0.83 ---comp.=-10462499.00
+iteration 747 
+beta=1.80 --- nGRF=13.00 --- Acc=0.57 ---comp.=-11637499.00
+iteration 805 
+beta=1.85 --- nGRF=22.00 --- Acc=1.00 ---comp.=-9499999.00
+iteration 633 
+beta=1.65 --- nGRF=46.00 --- Acc=0.80 ---comp.=-7574999.00
+iteration 611 
+beta=1.65 --- nGRF=24.00 --- Acc=0.76 ---comp.=-9587499.00
+iteration 770 
+beta=1.80 --- nGRF=36.00 --- Acc=0.93 ---comp.=-8162499.00
+iteration 833 
+beta=1.85 --- nGRF=50.00 --- Acc=0.98 ---comp.=-6824999.00
+iteration 729 
+beta=1.75 --- nGRF=44.00 --- Acc=0.83 ---comp.=-7649999.00
+iteration 746 
+beta=1.80 --- nGRF=12.00 --- Acc=0.96 ---comp.=-11887499.00
+iteration 821 
+beta=1.85 --- nGRF=38.00 --- Acc=0.93 ---comp.=-8149999.00
+iteration 333 
+beta=1.35 --- nGRF=40.00 --- Acc=0.89 ---comp.=-8037499.00
+iteration 702 
+beta=1.75 --- nGRF=17.00 --- Acc=0.61 ---comp.=-11162499.00
+iteration 804 
+beta=1.85 --- nGRF=21.00 --- Acc=0.57 ---comp.=-10462499.00
+iteration 673 
+beta=1.70 --- nGRF=37.00 --- Acc=0.85 ---comp.=-8187499.00
+iteration 610 
+beta=1.65 --- nGRF=23.00 --- Acc=0.61 ---comp.=-9662499.00
+iteration 784 
+beta=1.80 --- nGRF=50.00 --- Acc=0.98 ---comp.=-6824999.00
+iteration 745 
+beta=1.80 --- nGRF=11.00 --- Acc=0.63 ---comp.=-13074999.00
+iteration 769 
+beta=1.80 --- nGRF=35.00 --- Acc=0.54 ---comp.=-8499999.00
+iteration 701 
+beta=1.75 --- nGRF=16.00 --- Acc=1.00 ---comp.=-10737499.00
+iteration 632 
+beta=1.65 --- nGRF=45.00 --- Acc=0.59 ---comp.=-7687499.00
+iteration 744 
+beta=1.80 --- nGRF=10.00 --- Acc=0.83 ---comp.=-13049999.00
+iteration 803 
+beta=1.85 --- nGRF=20.00 --- Acc=1.00 ---comp.=-9824999.00
+iteration 728 
+beta=1.75 --- nGRF=43.00 --- Acc=0.52 ---comp.=-7749999.00
+iteration 820 
+beta=1.85 --- nGRF=37.00 --- Acc=0.85 ---comp.=-8187499.00
+iteration 609 
+beta=1.65 --- nGRF=22.00 --- Acc=1.00 ---comp.=-9499999.00
+iteration 832 
+beta=1.85 --- nGRF=49.00 --- Acc=0.52 ---comp.=-7549999.00
+iteration 743 
+beta=1.80 --- nGRF=9.00 --- Acc=0.57 ---comp.=-13099999.00
+iteration 332 
+beta=1.35 --- nGRF=39.00 --- Acc=0.83 ---comp.=-8162499.00
+iteration 672 
+beta=1.70 --- nGRF=36.00 --- Acc=0.93 ---comp.=-8162499.00
+iteration 700 
+beta=1.75 --- nGRF=15.00 --- Acc=0.57 ---comp.=-11587499.00
+iteration 783 
+beta=1.80 --- nGRF=49.00 --- Acc=0.52 ---comp.=-7549999.00
+iteration 768 
+beta=1.80 --- nGRF=34.00 --- Acc=0.65 ---comp.=-8449999.00
+iteration 802 
+beta=1.85 --- nGRF=19.00 --- Acc=0.54 ---comp.=-10512499.00
+iteration 742 
+beta=1.80 --- nGRF=8.00 --- Acc=0.91 ---comp.=-14599999.00
+iteration 608 
+beta=1.65 --- nGRF=21.00 --- Acc=0.57 ---comp.=-10462499.00
+iteration 631 
+beta=1.65 --- nGRF=44.00 --- Acc=0.83 ---comp.=-7649999.00
+iteration 699 
+beta=1.75 --- nGRF=14.00 --- Acc=0.98 ---comp.=-11237499.00
+iteration 819 
+beta=1.85 --- nGRF=36.00 --- Acc=0.93 ---comp.=-8162499.00
+iteration 741 
+beta=1.80 --- nGRF=7.00 --- Acc=0.54 ---comp.=-14749999.00
+iteration 727 
+beta=1.75 --- nGRF=42.00 --- Acc=0.70 ---comp.=-7712499.00
+iteration 801 
+beta=1.85 --- nGRF=18.00 --- Acc=0.83 ---comp.=-10462499.00
+iteration 671 
+beta=1.70 --- nGRF=35.00 --- Acc=0.54 ---comp.=-8499999.00
+iteration 831 
+beta=1.85 --- nGRF=48.00 --- Acc=0.54 ---comp.=-7624999.00
+iteration 740 
+beta=1.80 --- nGRF=6.00 --- Acc=0.43 ---comp.=-14837499.00
+iteration 607 
+beta=1.65 --- nGRF=20.00 --- Acc=1.00 ---comp.=-9824999.00
+iteration 698 
+beta=1.75 --- nGRF=13.00 --- Acc=0.57 ---comp.=-11637499.00
+iteration 767 
+beta=1.80 --- nGRF=33.00 --- Acc=0.54 ---comp.=-8824999.00
+iteration 331 
+beta=1.35 --- nGRF=38.00 --- Acc=0.93 ---comp.=-8149999.00
+iteration 739 
+beta=1.80 --- nGRF=5.00 --- Acc=0.74 ---comp.=-17099999.00
+iteration 782 
+beta=1.80 --- nGRF=48.00 --- Acc=0.54 ---comp.=-7624999.00
+iteration 800 
+beta=1.85 --- nGRF=17.00 --- Acc=0.61 ---comp.=-11162499.00
+iteration 818 
+beta=1.85 --- nGRF=35.00 --- Acc=0.54 ---comp.=-8499999.00
+iteration 630 
+beta=1.65 --- nGRF=43.00 --- Acc=0.52 ---comp.=-7749999.00
+iteration 606 
+beta=1.65 --- nGRF=19.00 --- Acc=0.54 ---comp.=-10512499.00
+iteration 738 
+beta=1.80 --- nGRF=4.00 --- Acc=0.76 ---comp.=-17137499.00
+iteration 697 
+beta=1.75 --- nGRF=12.00 --- Acc=0.96 ---comp.=-11887499.00
+iteration 726 
+beta=1.75 --- nGRF=41.00 --- Acc=0.87 ---comp.=-8137499.00
+iteration 670 
+beta=1.70 --- nGRF=34.00 --- Acc=0.65 ---comp.=-8449999.00
+iteration 737 
+beta=1.80 --- nGRF=3.00 --- Acc=0.78 ---comp.=-20199999.00
+iteration 849 
+beta=1.90 --- nGRF=17.00 --- Acc=0.61 ---comp.=-11162499.00
+iteration 766 
+beta=1.80 --- nGRF=32.00 --- Acc=0.89 ---comp.=-8749999.00
+iteration 799 
+beta=1.85 --- nGRF=16.00 --- Acc=1.00 ---comp.=-10737499.00
+iteration 830 
+beta=1.85 --- nGRF=47.00 --- Acc=0.59 ---comp.=-7662499.00
+iteration 605 
+beta=1.65 --- nGRF=18.00 --- Acc=0.83 ---comp.=-10462499.00
+iteration 736 
+beta=1.80 --- nGRF=2.00 --- Acc=0.52 ---comp.=-20462499.00
+iteration 696 
+beta=1.75 --- nGRF=11.00 --- Acc=0.63 ---comp.=-13074999.00
+iteration 860 
+beta=1.90 --- nGRF=28.00 --- Acc=0.96 ---comp.=-8674999.00
+iteration 817 
+beta=1.85 --- nGRF=34.00 --- Acc=0.65 ---comp.=-8449999.00
+iteration 848 
+beta=1.90 --- nGRF=16.00 --- Acc=1.00 ---comp.=-10737499.00
+iteration 781 
+beta=1.80 --- nGRF=47.00 --- Acc=0.59 ---comp.=-7662499.00
+iteration 798 
+beta=1.85 --- nGRF=15.00 --- Acc=0.57 ---comp.=-11587499.00
+iteration 669 
+beta=1.70 --- nGRF=33.00 --- Acc=0.54 ---comp.=-8824999.00
+iteration 695 
+beta=1.75 --- nGRF=10.00 --- Acc=0.83 ---comp.=-13049999.00
+iteration 725 
+beta=1.75 --- nGRF=40.00 --- Acc=0.89 ---comp.=-8037499.00
+iteration 604 
+beta=1.65 --- nGRF=17.00 --- Acc=0.61 ---comp.=-11162499.00
+iteration 765 
+beta=1.80 --- nGRF=31.00 --- Acc=0.54 ---comp.=-8849999.00
+iteration 847 
+beta=1.90 --- nGRF=15.00 --- Acc=0.57 ---comp.=-11587499.00
+iteration 859 
+beta=1.90 --- nGRF=27.00 --- Acc=0.57 ---comp.=-9599999.00
+iteration 797 
+beta=1.85 --- nGRF=14.00 --- Acc=0.98 ---comp.=-11237499.00
+iteration 694 
+beta=1.75 --- nGRF=9.00 --- Acc=0.57 ---comp.=-13099999.00
+iteration 603 
+beta=1.65 --- nGRF=16.00 --- Acc=1.00 ---comp.=-10737499.00
+iteration 816 
+beta=1.85 --- nGRF=33.00 --- Acc=0.54 ---comp.=-8824999.00
+iteration 735 
+beta=1.75 --- nGRF=50.00 --- Acc=0.98 ---comp.=-6824999.00
+iteration 668 
+beta=1.70 --- nGRF=32.00 --- Acc=0.89 ---comp.=-8749999.00
+iteration 829 
+beta=1.85 --- nGRF=46.00 --- Acc=0.80 ---comp.=-7574999.00
+iteration 846 
+beta=1.90 --- nGRF=14.00 --- Acc=0.98 ---comp.=-11237499.00
+iteration 693 
+beta=1.75 --- nGRF=8.00 --- Acc=0.91 ---comp.=-14599999.00
+iteration 796 
+beta=1.85 --- nGRF=13.00 --- Acc=0.57 ---comp.=-11637499.00
+iteration 780 
+beta=1.80 --- nGRF=46.00 --- Acc=0.80 ---comp.=-7574999.00
+iteration 764 
+beta=1.80 --- nGRF=30.00 --- Acc=0.93 ---comp.=-8812499.00
+iteration 724 
+beta=1.75 --- nGRF=39.00 --- Acc=0.83 ---comp.=-8162499.00
+iteration 602 
+beta=1.65 --- nGRF=15.00 --- Acc=0.57 ---comp.=-11587499.00
+iteration 858 
+beta=1.90 --- nGRF=26.00 --- Acc=0.91 ---comp.=-9549999.00
+iteration 692 
+beta=1.75 --- nGRF=7.00 --- Acc=0.54 ---comp.=-14749999.00
+iteration 845 
+beta=1.90 --- nGRF=13.00 --- Acc=0.57 ---comp.=-11637499.00
+iteration 795 
+beta=1.85 --- nGRF=12.00 --- Acc=0.96 ---comp.=-11887499.00
+iteration 815 
+beta=1.85 --- nGRF=32.00 --- Acc=0.89 ---comp.=-8749999.00
+iteration 601 
+beta=1.65 --- nGRF=14.00 --- Acc=0.98 ---comp.=-11237499.00
+iteration 870 
+beta=1.90 --- nGRF=38.00 --- Acc=0.93 ---comp.=-8149999.00
+iteration 667 
+beta=1.70 --- nGRF=31.00 --- Acc=0.54 ---comp.=-8849999.00
+iteration 691 
+beta=1.75 --- nGRF=6.00 --- Acc=0.43 ---comp.=-14837499.00
+iteration 763 
+beta=1.80 --- nGRF=29.00 --- Acc=0.54 ---comp.=-8862499.00
+iteration 844 
+beta=1.90 --- nGRF=12.00 --- Acc=0.96 ---comp.=-11887499.00
+iteration 857 
+beta=1.90 --- nGRF=25.00 --- Acc=0.61 ---comp.=-9649999.00
+iteration 794 
+beta=1.85 --- nGRF=11.00 --- Acc=0.63 ---comp.=-13074999.00
+iteration 723 
+beta=1.75 --- nGRF=38.00 --- Acc=0.93 ---comp.=-8149999.00
+iteration 779 
+beta=1.80 --- nGRF=45.00 --- Acc=0.59 ---comp.=-7687499.00
+iteration 690 
+beta=1.75 --- nGRF=5.00 --- Acc=0.74 ---comp.=-17099999.00
+iteration 600 
+beta=1.65 --- nGRF=13.00 --- Acc=0.57 ---comp.=-11637499.00
+iteration 828 
+beta=1.85 --- nGRF=45.00 --- Acc=0.59 ---comp.=-7687499.00
+iteration 843 
+beta=1.90 --- nGRF=11.00 --- Acc=0.63 ---comp.=-13074999.00
+iteration 793 
+beta=1.85 --- nGRF=10.00 --- Acc=0.83 ---comp.=-13049999.00
+iteration 814 
+beta=1.85 --- nGRF=31.00 --- Acc=0.54 ---comp.=-8849999.00
+iteration 689 
+beta=1.75 --- nGRF=4.00 --- Acc=0.76 ---comp.=-17137499.00
+iteration 666 
+beta=1.70 --- nGRF=30.00 --- Acc=0.93 ---comp.=-8812499.00
+iteration 856 
+beta=1.90 --- nGRF=24.00 --- Acc=0.76 ---comp.=-9587499.00
+iteration 762 
+beta=1.80 --- nGRF=28.00 --- Acc=0.96 ---comp.=-8674999.00
+iteration 599 
+beta=1.65 --- nGRF=12.00 --- Acc=0.96 ---comp.=-11887499.00
+iteration 869 
+beta=1.90 --- nGRF=37.00 --- Acc=0.85 ---comp.=-8187499.00
+iteration 842 
+beta=1.90 --- nGRF=10.00 --- Acc=0.83 ---comp.=-13049999.00
+iteration 688 
+beta=1.75 --- nGRF=3.00 --- Acc=0.78 ---comp.=-20199999.00
+iteration 722 
+beta=1.75 --- nGRF=37.00 --- Acc=0.85 ---comp.=-8187499.00
+iteration 598 
+beta=1.65 --- nGRF=11.00 --- Acc=0.63 ---comp.=-13074999.00
+iteration 841 
+beta=1.90 --- nGRF=9.00 --- Acc=0.57 ---comp.=-13099999.00
+iteration 778 
+beta=1.80 --- nGRF=44.00 --- Acc=0.83 ---comp.=-7649999.00
+iteration 687 
+beta=1.75 --- nGRF=2.00 --- Acc=0.52 ---comp.=-20462499.00
+iteration 813 
+beta=1.85 --- nGRF=30.00 --- Acc=0.93 ---comp.=-8812499.00
+iteration 855 
+beta=1.90 --- nGRF=23.00 --- Acc=0.61 ---comp.=-9662499.00
+iteration 665 
+beta=1.70 --- nGRF=29.00 --- Acc=0.54 ---comp.=-8862499.00
+iteration 827 
+beta=1.85 --- nGRF=44.00 --- Acc=0.83 ---comp.=-7649999.00
+iteration 761 
+beta=1.80 --- nGRF=27.00 --- Acc=0.57 ---comp.=-9599999.00
+iteration 889 
+beta=1.95 --- nGRF=8.00 --- Acc=0.91 ---comp.=-14599999.00
+iteration 840 
+beta=1.90 --- nGRF=8.00 --- Acc=0.91 ---comp.=-14599999.00
+iteration 880 
+beta=1.90 --- nGRF=48.00 --- Acc=0.54 ---comp.=-7624999.00
+iteration 868 
+beta=1.90 --- nGRF=36.00 --- Acc=0.93 ---comp.=-8162499.00
+iteration 898 
+beta=1.95 --- nGRF=17.00 --- Acc=0.61 ---comp.=-11162499.00
+iteration 888 
+beta=1.95 --- nGRF=7.00 --- Acc=0.54 ---comp.=-14749999.00
+iteration 721 
+beta=1.75 --- nGRF=36.00 --- Acc=0.93 ---comp.=-8162499.00
+iteration 839 
+beta=1.90 --- nGRF=7.00 --- Acc=0.54 ---comp.=-14749999.00
+iteration 854 
+beta=1.90 --- nGRF=22.00 --- Acc=1.00 ---comp.=-9499999.00
+iteration 812 
+beta=1.85 --- nGRF=29.00 --- Acc=0.54 ---comp.=-8862499.00
+iteration 664 
+beta=1.70 --- nGRF=28.00 --- Acc=0.96 ---comp.=-8674999.00
+iteration 760 
+beta=1.80 --- nGRF=26.00 --- Acc=0.91 ---comp.=-9549999.00
+iteration 777 
+beta=1.80 --- nGRF=43.00 --- Acc=0.52 ---comp.=-7749999.00
+iteration 838 
+beta=1.90 --- nGRF=6.00 --- Acc=0.43 ---comp.=-14837499.00
+iteration 887 
+beta=1.95 --- nGRF=6.00 --- Acc=0.43 ---comp.=-14837499.00
+iteration 826 
+beta=1.85 --- nGRF=43.00 --- Acc=0.52 ---comp.=-7749999.00
+iteration 867 
+beta=1.90 --- nGRF=35.00 --- Acc=0.54 ---comp.=-8499999.00
+iteration 897 
+beta=1.95 --- nGRF=16.00 --- Acc=1.00 ---comp.=-10737499.00
+iteration 853 
+beta=1.90 --- nGRF=21.00 --- Acc=0.57 ---comp.=-10462499.00
+iteration 886 
+beta=1.95 --- nGRF=5.00 --- Acc=0.74 ---comp.=-17099999.00
+iteration 879 
+beta=1.90 --- nGRF=47.00 --- Acc=0.59 ---comp.=-7662499.00
+iteration 720 
+beta=1.75 --- nGRF=35.00 --- Acc=0.54 ---comp.=-8499999.00
+iteration 811 
+beta=1.85 --- nGRF=28.00 --- Acc=0.96 ---comp.=-8674999.00
+iteration 759 
+beta=1.80 --- nGRF=25.00 --- Acc=0.61 ---comp.=-9649999.00
+iteration 663 
+beta=1.70 --- nGRF=27.00 --- Acc=0.57 ---comp.=-9599999.00
+iteration 907 
+beta=1.95 --- nGRF=26.00 --- Acc=0.91 ---comp.=-9549999.00
+iteration 885 
+beta=1.95 --- nGRF=4.00 --- Acc=0.76 ---comp.=-17137499.00
+iteration 896 
+beta=1.95 --- nGRF=15.00 --- Acc=0.57 ---comp.=-11587499.00
+iteration 852 
+beta=1.90 --- nGRF=20.00 --- Acc=1.00 ---comp.=-9824999.00
+iteration 776 
+beta=1.80 --- nGRF=42.00 --- Acc=0.70 ---comp.=-7712499.00
+iteration 884 
+beta=1.95 --- nGRF=3.00 --- Acc=0.78 ---comp.=-20199999.00
+iteration 866 
+beta=1.90 --- nGRF=34.00 --- Acc=0.65 ---comp.=-8449999.00
+iteration 825 
+beta=1.85 --- nGRF=42.00 --- Acc=0.70 ---comp.=-7712499.00
+iteration 883 
+beta=1.95 --- nGRF=2.00 --- Acc=0.52 ---comp.=-20462499.00
+iteration 810 
+beta=1.85 --- nGRF=27.00 --- Acc=0.57 ---comp.=-9599999.00
+iteration 662 
+beta=1.70 --- nGRF=26.00 --- Acc=0.91 ---comp.=-9549999.00
+iteration 719 
+beta=1.75 --- nGRF=34.00 --- Acc=0.65 ---comp.=-8449999.00
+iteration 895 
+beta=1.95 --- nGRF=14.00 --- Acc=0.98 ---comp.=-11237499.00
+iteration 906 
+beta=1.95 --- nGRF=25.00 --- Acc=0.61 ---comp.=-9649999.00
+iteration 758 
+beta=1.80 --- nGRF=24.00 --- Acc=0.76 ---comp.=-9587499.00
+iteration 851 
+beta=1.90 --- nGRF=19.00 --- Acc=0.54 ---comp.=-10512499.00
+iteration 878 
+beta=1.90 --- nGRF=46.00 --- Acc=0.80 ---comp.=-7574999.00
+iteration 865 
+beta=1.90 --- nGRF=33.00 --- Acc=0.54 ---comp.=-8824999.00
+iteration 894 
+beta=1.95 --- nGRF=13.00 --- Acc=0.57 ---comp.=-11637499.00
+iteration 775 
+beta=1.80 --- nGRF=41.00 --- Acc=0.87 ---comp.=-8137499.00
+iteration 850 
+beta=1.90 --- nGRF=18.00 --- Acc=0.83 ---comp.=-10462499.00
+iteration 661 
+beta=1.70 --- nGRF=25.00 --- Acc=0.61 ---comp.=-9649999.00
+iteration 809 
+beta=1.85 --- nGRF=26.00 --- Acc=0.91 ---comp.=-9549999.00
+iteration 905 
+beta=1.95 --- nGRF=24.00 --- Acc=0.76 ---comp.=-9587499.00
+iteration 718 
+beta=1.75 --- nGRF=33.00 --- Acc=0.54 ---comp.=-8824999.00
+iteration 824 
+beta=1.85 --- nGRF=41.00 --- Acc=0.87 ---comp.=-8137499.00
+iteration 757 
+beta=1.80 --- nGRF=23.00 --- Acc=0.61 ---comp.=-9662499.00
+iteration 934 
+beta=2.00 --- nGRF=4.00 --- Acc=0.76 ---comp.=-17137499.00
+iteration 893 
+beta=1.95 --- nGRF=12.00 --- Acc=0.96 ---comp.=-11887499.00
+iteration 882 
+beta=1.90 --- nGRF=50.00 --- Acc=0.98 ---comp.=-6824999.00
+iteration 877 
+beta=1.90 --- nGRF=45.00 --- Acc=0.59 ---comp.=-7687499.00
+iteration 933 
+beta=2.00 --- nGRF=3.00 --- Acc=0.78 ---comp.=-20199999.00
+iteration 864 
+beta=1.90 --- nGRF=32.00 --- Acc=0.89 ---comp.=-8749999.00
+iteration 943 
+beta=2.00 --- nGRF=13.00 --- Acc=0.57 ---comp.=-11637499.00
+iteration 660 
+beta=1.70 --- nGRF=24.00 --- Acc=0.76 ---comp.=-9587499.00
+iteration 904 
+beta=1.95 --- nGRF=23.00 --- Acc=0.61 ---comp.=-9662499.00
+iteration 916 
+beta=1.95 --- nGRF=35.00 --- Acc=0.54 ---comp.=-8499999.00
+iteration 892 
+beta=1.95 --- nGRF=11.00 --- Acc=0.63 ---comp.=-13074999.00
+iteration 932 
+beta=2.00 --- nGRF=2.00 --- Acc=0.52 ---comp.=-20462499.00
+iteration 717 
+beta=1.75 --- nGRF=32.00 --- Acc=0.89 ---comp.=-8749999.00
+iteration 925 
+beta=1.95 --- nGRF=44.00 --- Acc=0.83 ---comp.=-7649999.00
+iteration 756 
+beta=1.80 --- nGRF=22.00 --- Acc=1.00 ---comp.=-9499999.00
+iteration 942 
+beta=2.00 --- nGRF=12.00 --- Acc=0.96 ---comp.=-11887499.00
+iteration 952 
+beta=2.00 --- nGRF=22.00 --- Acc=1.00 ---comp.=-9499999.00
+iteration 903 
+beta=1.95 --- nGRF=22.00 --- Acc=1.00 ---comp.=-9499999.00
+iteration 891 
+beta=1.95 --- nGRF=10.00 --- Acc=0.83 ---comp.=-13049999.00
+iteration 863 
+beta=1.90 --- nGRF=31.00 --- Acc=0.54 ---comp.=-8849999.00
+iteration 941 
+beta=2.00 --- nGRF=11.00 --- Acc=0.63 ---comp.=-13074999.00
+iteration 881 
+beta=1.90 --- nGRF=49.00 --- Acc=0.52 ---comp.=-7549999.00
+iteration 915 
+beta=1.95 --- nGRF=34.00 --- Acc=0.65 ---comp.=-8449999.00
+iteration 876 
+beta=1.90 --- nGRF=44.00 --- Acc=0.83 ---comp.=-7649999.00
+iteration 716 
+beta=1.75 --- nGRF=31.00 --- Acc=0.54 ---comp.=-8849999.00
+iteration 890 
+beta=1.95 --- nGRF=9.00 --- Acc=0.57 ---comp.=-13099999.00
+iteration 902 
+beta=1.95 --- nGRF=21.00 --- Acc=0.57 ---comp.=-10462499.00
+iteration 951 
+beta=2.00 --- nGRF=21.00 --- Acc=0.57 ---comp.=-10462499.00
+iteration 940 
+beta=2.00 --- nGRF=10.00 --- Acc=0.83 ---comp.=-13049999.00
+iteration 924 
+beta=1.95 --- nGRF=43.00 --- Acc=0.52 ---comp.=-7749999.00
+iteration 931 
+beta=1.95 --- nGRF=50.00 --- Acc=0.98 ---comp.=-6824999.00
+iteration 961 
+beta=2.00 --- nGRF=31.00 --- Acc=0.54 ---comp.=-8849999.00
+iteration 862 
+beta=1.90 --- nGRF=30.00 --- Acc=0.93 ---comp.=-8812499.00
+iteration 939 
+beta=2.00 --- nGRF=9.00 --- Acc=0.57 ---comp.=-13099999.00
+iteration 914 
+beta=1.95 --- nGRF=33.00 --- Acc=0.54 ---comp.=-8824999.00
+iteration 970 
+beta=2.00 --- nGRF=40.00 --- Acc=0.89 ---comp.=-8037499.00
+iteration 715 
+beta=1.75 --- nGRF=30.00 --- Acc=0.93 ---comp.=-8812499.00
+iteration 901 
+beta=1.95 --- nGRF=20.00 --- Acc=1.00 ---comp.=-9824999.00
+iteration 950 
+beta=2.00 --- nGRF=20.00 --- Acc=1.00 ---comp.=-9824999.00
+iteration 875 
+beta=1.90 --- nGRF=43.00 --- Acc=0.52 ---comp.=-7749999.00
+iteration 938 
+beta=2.00 --- nGRF=8.00 --- Acc=0.91 ---comp.=-14599999.00
+iteration 861 
+beta=1.90 --- nGRF=29.00 --- Acc=0.54 ---comp.=-8862499.00
+iteration 923 
+beta=1.95 --- nGRF=42.00 --- Acc=0.70 ---comp.=-7712499.00
+iteration 979 
+beta=2.00 --- nGRF=49.00 --- Acc=0.52 ---comp.=-7549999.00
+iteration 937 
+beta=2.00 --- nGRF=7.00 --- Acc=0.54 ---comp.=-14749999.00
+iteration 960 
+beta=2.00 --- nGRF=30.00 --- Acc=0.93 ---comp.=-8812499.00
+iteration 900 
+beta=1.95 --- nGRF=19.00 --- Acc=0.54 ---comp.=-10512499.00
+iteration 949 
+beta=2.00 --- nGRF=19.00 --- Acc=0.54 ---comp.=-10512499.00
+iteration 930 
+beta=1.95 --- nGRF=49.00 --- Acc=0.52 ---comp.=-7549999.00
+iteration 714 
+beta=1.75 --- nGRF=29.00 --- Acc=0.54 ---comp.=-8862499.00
+iteration 913 
+beta=1.95 --- nGRF=32.00 --- Acc=0.89 ---comp.=-8749999.00
+iteration 969 
+beta=2.00 --- nGRF=39.00 --- Acc=0.83 ---comp.=-8162499.00
+iteration 936 
+beta=2.00 --- nGRF=6.00 --- Acc=0.43 ---comp.=-14837499.00
+iteration 899 
+beta=1.95 --- nGRF=18.00 --- Acc=0.83 ---comp.=-10462499.00
+iteration 948 
+beta=2.00 --- nGRF=18.00 --- Acc=0.83 ---comp.=-10462499.00
+iteration 874 
+beta=1.90 --- nGRF=42.00 --- Acc=0.70 ---comp.=-7712499.00
+iteration 935 
+beta=2.00 --- nGRF=5.00 --- Acc=0.74 ---comp.=-17099999.00
+iteration 922 
+beta=1.95 --- nGRF=41.00 --- Acc=0.87 ---comp.=-8137499.00
+iteration 713 
+beta=1.75 --- nGRF=28.00 --- Acc=0.96 ---comp.=-8674999.00
+iteration 912 
+beta=1.95 --- nGRF=31.00 --- Acc=0.54 ---comp.=-8849999.00
+iteration 959 
+beta=2.00 --- nGRF=29.00 --- Acc=0.54 ---comp.=-8862499.00
+iteration 980 
+beta=2.00 --- nGRF=50.00 --- Acc=0.98 ---comp.=-6824999.00
+iteration 947 
+beta=2.00 --- nGRF=17.00 --- Acc=0.61 ---comp.=-11162499.00
+iteration 978 
+beta=2.00 --- nGRF=48.00 --- Acc=0.54 ---comp.=-7624999.00
+iteration 968 
+beta=2.00 --- nGRF=38.00 --- Acc=0.93 ---comp.=-8149999.00
+iteration 929 
+beta=1.95 --- nGRF=48.00 --- Acc=0.54 ---comp.=-7624999.00
+iteration 873 
+beta=1.90 --- nGRF=41.00 --- Acc=0.87 ---comp.=-8137499.00
+iteration 712 
+beta=1.75 --- nGRF=27.00 --- Acc=0.57 ---comp.=-9599999.00
+iteration 946 
+beta=2.00 --- nGRF=16.00 --- Acc=1.00 ---comp.=-10737499.00
+iteration 911 
+beta=1.95 --- nGRF=30.00 --- Acc=0.93 ---comp.=-8812499.00
+iteration 921 
+beta=1.95 --- nGRF=40.00 --- Acc=0.89 ---comp.=-8037499.00
+iteration 958 
+beta=2.00 --- nGRF=28.00 --- Acc=0.96 ---comp.=-8674999.00
+iteration 967 
+beta=2.00 --- nGRF=37.00 --- Acc=0.85 ---comp.=-8187499.00
+iteration 945 
+beta=2.00 --- nGRF=15.00 --- Acc=0.57 ---comp.=-11587499.00
+iteration 928 
+beta=1.95 --- nGRF=47.00 --- Acc=0.59 ---comp.=-7662499.00
+iteration 977 
+beta=2.00 --- nGRF=47.00 --- Acc=0.59 ---comp.=-7662499.00
+iteration 910 
+beta=1.95 --- nGRF=29.00 --- Acc=0.54 ---comp.=-8862499.00
+iteration 872 
+beta=1.90 --- nGRF=40.00 --- Acc=0.89 ---comp.=-8037499.00
+iteration 944 
+beta=2.00 --- nGRF=14.00 --- Acc=0.98 ---comp.=-11237499.00
+iteration 920 
+beta=1.95 --- nGRF=39.00 --- Acc=0.83 ---comp.=-8162499.00
+iteration 957 
+beta=2.00 --- nGRF=27.00 --- Acc=0.57 ---comp.=-9599999.00
+iteration 966 
+beta=2.00 --- nGRF=36.00 --- Acc=0.93 ---comp.=-8162499.00
+iteration 909 
+beta=1.95 --- nGRF=28.00 --- Acc=0.96 ---comp.=-8674999.00
+iteration 927 
+beta=1.95 --- nGRF=46.00 --- Acc=0.80 ---comp.=-7574999.00
+iteration 871 
+beta=1.90 --- nGRF=39.00 --- Acc=0.83 ---comp.=-8162499.00
+iteration 976 
+beta=2.00 --- nGRF=46.00 --- Acc=0.80 ---comp.=-7574999.00
+iteration 919 
+beta=1.95 --- nGRF=38.00 --- Acc=0.93 ---comp.=-8149999.00
+iteration 956 
+beta=2.00 --- nGRF=26.00 --- Acc=0.91 ---comp.=-9549999.00
+iteration 965 
+beta=2.00 --- nGRF=35.00 --- Acc=0.54 ---comp.=-8499999.00
+iteration 908 
+beta=1.95 --- nGRF=27.00 --- Acc=0.57 ---comp.=-9599999.00
+iteration 926 
+beta=1.95 --- nGRF=45.00 --- Acc=0.59 ---comp.=-7687499.00
+iteration 918 
+beta=1.95 --- nGRF=37.00 --- Acc=0.85 ---comp.=-8187499.00
+iteration 964 
+beta=2.00 --- nGRF=34.00 --- Acc=0.65 ---comp.=-8449999.00
+iteration 955 
+beta=2.00 --- nGRF=25.00 --- Acc=0.61 ---comp.=-9649999.00
+iteration 975 
+beta=2.00 --- nGRF=45.00 --- Acc=0.59 ---comp.=-7687499.00
+iteration 917 
+beta=1.95 --- nGRF=36.00 --- Acc=0.93 ---comp.=-8162499.00
+iteration 963 
+beta=2.00 --- nGRF=33.00 --- Acc=0.54 ---comp.=-8824999.00
+iteration 954 
+beta=2.00 --- nGRF=24.00 --- Acc=0.76 ---comp.=-9587499.00
+iteration 974 
+beta=2.00 --- nGRF=44.00 --- Acc=0.83 ---comp.=-7649999.00
+iteration 962 
+beta=2.00 --- nGRF=32.00 --- Acc=0.89 ---comp.=-8749999.00
+iteration 953 
+beta=2.00 --- nGRF=23.00 --- Acc=0.61 ---comp.=-9662499.00
+iteration 973 
+beta=2.00 --- nGRF=43.00 --- Acc=0.52 ---comp.=-7749999.00
+iteration 972 
+beta=2.00 --- nGRF=42.00 --- Acc=0.70 ---comp.=-7712499.00
+iteration 971 
+beta=2.00 --- nGRF=41.00 --- Acc=0.87 ---comp.=-8137499.00
