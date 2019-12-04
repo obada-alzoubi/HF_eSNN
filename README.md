@@ -1,4 +1,4 @@
-# Hierarchical Fusion Evolving Spiking Neural Network for Adaptive Learning Project Title
+# Hierarchical Fusion Evolving Spiking Neural Network for Adaptive Learning 
 
 ## Features
 The codes and scritps here are my implmenation for Hierarchical Fusion Evolving Spiking Neural Network for Adaptive Learning. The algorithm  has several unqiue features:
@@ -7,6 +7,8 @@ The codes and scritps here are my implmenation for Hierarchical Fusion Evolving 
 * 3- Biologically-inspired model
 * 4- Dynamic structure 
 * 5- Parallel Compatibility
+## Starting Point 
+Please run runMe.m and debug it .. you will learn a lot!
 ## Paper
 For more information, please read the following paper.
 
