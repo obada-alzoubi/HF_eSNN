@@ -2,7 +2,7 @@
 dat ='aloi'; % dataset to test 
 fOutput ='aloi.csv';% summary of the output
 dist = 'euclidean';% distance metric to merge neurons
-pdf_f = 'Normal';% Don't worry about it, I was trying different Receptive fields 
+pdf_f = 'Normal';% Experimetnal .. use Normal for default. Other receptive fields can be used.
 s = 0.1;% threshold of merging neurons. High value will merge more neurons and make model more simple
 c = 0.6; % satuartion controling variable 
 m = 0.9;% m paramter for Thorp's neural model ..in case you are using Thorp's model. if you are using NRO model presented in the paper (See refernces), you don't need m paramter. 
