@@ -3,9 +3,9 @@ dat ='aloi'; % dataset to test
 fOutput ='aloi.csv';% summary of the output
 dist = 'euclidean';% distance metric to merge neurons
 pdf_f = 'Normal';% Experimetnal .. use Normal for default. Other receptive fields can be used.
-s = 0.1;% threshold of merging neurons. High value will merge more neurons and make model more simple
-c = 0.6; % satuartion controling variable 
-m = 0.9;% m paramter for Thorp's neural model ..in case you are using Thorp's model. if you are using NRO model presented in the paper (See refernces), you don't need m paramter. 
+s = 0.05;% threshold of merging neurons. High value will merge more neurons and make model more simple
+c = 0.5; % satuartion controling variable 
+m = 0;% m paramter for Thorp's neural model ..in case you are using Thorp's model. if you are using NRO model presented in the paper (See refernces), you don't need m paramter. 
 %% Add path for some needed codes 
 addpath('matlab') 
 addpath('data')
@@ -83,13 +83,14 @@ Param.max_response_time = 0.9; % don't worry about this
 Param.useExp = false; %don't worry about this
 Param.useThreshold = true; % don't worry about  this
 Param.useClassWideRespose = true; % don't worry about this
+
 %% Training
 % Here you need to divide the data according to different classes .. to test evolving learning 
 trainData1 = dataTr(1:5000, :); % first 5000 samples
 trainData2 = dataTr(5000:10000, :); % first 5000 samples
 % You can train part of the data independently ... felxibility 
-[repos1, ~, ~] = train_eSNN4(trainData1, Param);
-[repos2, ~, ~] = train_eSNN4(trainData2, Param);
+[repos1, ~, ~] = train_eSNN4(Data, Param);
+[repos2, ~, ~] = train_eSNN4(Data, Param);
 % this how you merge different repos.  Let's say repos1 and repos 2 in
 % finalRpos
 finalRepos.w =[];
@@ -106,4 +107,4 @@ finalRepos.label=[repos1.label ;repos2.label];
 %% Finally Testing
 testData = dataTs(1:1000, :); %test first 1000 samples
 % Test preidiction 
-[Acc , ~]=test_eSNN3( finalRepos,testData,Param );
+[Acc , pred]=test_eSNN3( repos1,Data,Param );

@@ -1,8 +1,8 @@
 function [ repos, tempTrainAcc, tempValAcc] = train_eSNN4(trainData,Param)
 %train eSNN function Summary of this function goes here
 %   Detailed explanation goes here
-label=trainData(:,end);% labels 
-uniqueLabels=unique(label);
+label       = trainData(:,end);% labels 
+uniqueLabels= unique(label);
 
 for i=1:size(uniqueLabels)
     % create for each class its own entry 

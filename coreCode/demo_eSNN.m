@@ -8,6 +8,8 @@ Param.I_min=0;
 Param.I_max=1;
 Param.nbfields=20;
 Param.Beta=1.2;
+Param.pd_f = "Normal";
+Param.dist = "euclidean";
 % 0.9895 0.8092 0.5721
 load fisheriris
 irislas=ones(150,1);
