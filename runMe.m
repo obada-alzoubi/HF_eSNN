@@ -1,4 +1,5 @@
 %% scritp config
+%
 dat ='aloi'; % dataset to test 
 fOutput ='aloi.csv';% summary of the output
 dist = 'euclidean';% distance metric to merge neurons
