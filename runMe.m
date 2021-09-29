@@ -1,7 +1,4 @@
 %% scritp config
-%
-dat ='aloi'; % dataset to test 
-fOutput ='aloi.csv';% summary of the output
 dist = 'euclidean';% distance metric to merge neurons
 pdf_f = 'Normal';% Experimetnal .. use Normal for default. Other receptive fields can be used.
 s = 0.05;% threshold of merging neurons. High value will merge more neurons and make model more simple
