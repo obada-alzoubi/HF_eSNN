@@ -1,5 +1,5 @@
 # Hierarchical Fusion Evolving Spiking Neural Network for Adaptive Learning 
-
+# A webpage will published soon to cover more details about the toolbox. If you have a question, please send email to obada.y.alzoubi@gmail.com
 ## Features
 The codes and scritps here are my implmenation for Hierarchical Fusion Evolving Spiking Neural Network for Adaptive Learning. The algorithm  has several unqiue features:
 * 1- Online Learning. 
