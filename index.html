@@ -88,7 +88,7 @@
 
       
 
-      </header><div class="row">
+  </header><div class="row">
   <div class="contents col-md-9">
 
 
@@ -124,9 +124,14 @@ addpath('coreCode')
 </span>
 </pre></div>
 
-<div id="input-formats" class="section level2">
+<div id="input-formats" class="section level1">
 <h2 class="hasAnchor">
-<a href="#input-formats" class="anchor"></a> Feature Encoding </h2>
+<a href="#input-formats" class="anchor"></a> Configurations </h2>
+</div>
+
+<div id="input-formats" class="section level1">
+<h3 class="hasAnchor">
+<a href="#input-formats" class="anchor"></a> Feature Encoding </h3>
 <p>The rank coding procedure is the following: first, it starts by converting the input values into a sequence of spikes using the Gaussian receptive fields. The Gaussian receptive fields consist of m receptive fields that are used to represent the input value n into spikes. Assume that n takes values from the range [I_min^n  ,I_max^n], then the Gaussian receptive field of neuron I is given by its center u_i:  
 HeSNN uses population encoding to convert features into set of spikes. The goal is to convert each feature to <code>nbfields</code>
 neurons. 
@@ -137,7 +142,11 @@ neurons.
 
 <p><img src="docs/reference/grf_population_encoding.png" width="700" style="display: block; margin: auto;"></p>
 
-<a href="#input-formats" class="anchor"></a>Input formats</h2>
+<div id="input-formats" class="section level1">
+<h3 class="hasAnchor">
+<a href="#input-formats" class="anchor"></a> Input formats </h3>
+
+</div>
 
 <p> HeSNN uses matrix format to represent the data with last column is the class label.
 The features should be scaled between -1 and +1 in order to have correct encoding for the features. </p>
@@ -164,17 +173,17 @@ The features should be scaled between -1 and +1 in order to have correct encodin
 
 </li>
 <li>
+</li>
+</ul>
+</div>
 
-
-
-<div id="polygenic-scores" class="section level2">
+<div id="polygenic-scores" class="section level">
 <h2 class="hasAnchor">
 <a href="#polygenic-scores" class="anchor"></a>Demo Example</h2>
 <p>In this demo example, we will use fisheriris dataset as an exmaple:</p>
 <ul>
 <div class="sourceCode" id="cb1"><pre class="downlit">
-  <span class="op">
-  dist = 'euclidean';% distance metric to merge neurons
+  <span class="op">dist = 'euclidean';% distance metric to merge neurons
   pdf_f = 'Normal';% Experimetnal .. use Normal for default. Other receptive fields can be used.
   s = 0.1;% threshold of merging neurons. High value will merge more neurons and make model more simple
   c = 0.8; % satuartion controling variable 
@@ -182,14 +191,11 @@ The features should be scaled between -1 and +1 in order to have correct encodin
   I_min = -1; % lower range of the receptive field 
   I_max = +1; % upper range of the receptive field 
   nbfields = 32; % number of neurons to reprent each feature
-  Beta= 1.5; % the width of guassain field 
-  </span>
-  </pre></div>
+  Beta= 1.5; % the width of guassain field </span></pre></div>
   <p> The previous parmaters should be provided as data strcture as following :</p>
 
   <div class="sourceCode" id="cb1"><pre class="downlit">
-  <span class="op">
-  Param.m=m;
+  <span class="op">Param.m=m;
   Param.c=c;
   Param.s=s;
   Param.pdf_option = pdf_f;
@@ -208,39 +214,27 @@ The features should be scaled between -1 and +1 in order to have correct encodin
   Param.eval =1000; % evaluate training ever specefic number ( not used now)
   Param.useThreshold = true; % don't worry about  this
   Param.useClassWideRespose = true; % don't worry about this
-  Param.max_response_time = max_response_time; % don't worry about this
-  </span>
-  </pre></div>
-
+  Param.max_response_time = max_response_time; % don't worry about this</span></pre></div>
   <p>Now, let's load the fisheriris dataset as following:</p>
   <div class="sourceCode" id="cb1"><pre class="downlit">
-  <span class="op">
-  %% fisheriris dataset
+  <span class="op">%% fisheriris dataset
   load fisheriris
   irislas=ones(150,1);
   irislas(51:100)=irislas(51:100)*2;
   irislas(101:150)=irislas(101:150)*3;
   Data=normalize(meas(:,1:2));
-  Data=[Data irislas];
-  </span>
-  </pre></div>
+  Data=[Data irislas];</span></pre></div>
   <p>For training, simply: </p>
   <div class="sourceCode" id="cb1"><pre class="downlit">
-  <span class="op">
-  repos =train_eSNN4(Dat_train, Param);
-  </span>
-  </pre></div>
+  <span class="op">repos =train_eSNN4(Dat_train, Param);</span></pre></div>
   <p>The training function returns repository, repo, which is similar to the trained model in classifcal machine learning algorithms. 
     The differnce is that repo structure can be flexible for learning from new and unseen classes. Also, it can evlove to new information, if needed. </p>
   <p>For testing, simply: </p>
   <div class="sourceCode" id="cb1"><pre class="downlit">
-<span class="op">
-%% fisheriris dataset
-[Accuracy,predicted_labels]=test_eSNN3(Dat_test ,Param );
-</span>
-</pre></div>
+<span class="op">%% fisheriris dataset
+[Accuracy,predicted_labels]=test_eSNN3(Dat_test ,Param );</span></pre></div>
 <p> The testing function return the classifcation accuracy and predicted labels, as in the tradiational machine learning algorithms.</p>
-<div id="possible-upcoming-features" class="section level2">
+<div id="possible-upcoming-features" class="section level1">
 <h2 class="hasAnchor">
 <a href="#possible-upcoming-features" class="anchor"></a>Validation of the HFeSNN</h2>
 <li><p>Offline Mode : </p></li>
@@ -263,21 +257,22 @@ LDpred2 with summary statistics (see <a href="https://doi.org/10.1101/2020.04.28
 </ul>
 <p>You can request some feature by opening an issue.</p>
 </div>
-<div id="bug-report" class="section level2">
+<div id="bug-report" class="section level1">
 <h2 class="hasAnchor">
 <a href="#bug-report" class="anchor"></a>Bug report</h2>
 <p>Please open an issue if you find a bug.</p>
 <p>I will always redirect you to GitHub issues if you email me, so that others can benefit from our discussion.</p>
 </div>
-<div id="references" class="section level2">
-<h2 class="hasAnchor">
-<a href="#references" class="anchor"></a>References</h2>
-<ul>
+
+<div id="references" class="section level1">
+  <h2 class="hasAnchor">
+  <a href="#references" class="anchor"></a>References</h2>
+  <ul>
+  <li><p>Al Zoubi, Obada, et al. <a href="https://ieeexplore.ieee.org/abstract/document/8482055#:~:text=10.1109/ICCI-CC.2018.8482055">“Hierarchical Fusion Evolving Spiking Neural Network for Adaptive Learning.”</a> 2018 IEEE 17th International Conference on Cognitive Informatics & Cognitive Computing (ICCI* CC). IEEE, 2018.</p></li>  
 </ul>
-<p><br></p>
-</div>
-</div>
-</div>
+  <p><br></p>
+  </div>
+  </div>
 
 <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
  <div class="links">
